@@ -1,35 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./src/styles/style.css">
     <title>Biblioteca</title>
 </head>
 <body>
     <h1>Biblioteca 2025</h1>
     <input type="text" placeholder="pesquisa">
+    <br>
+    <br>
     <section>
-        <div>
-            <div>
-                catalogo
+        <div class="container">
+            <div class="card" onclick="openModal('Livro 1', 'Descrição do livro 1')">
+                <img src="./src/img/19 livros que todo mundo leu na infância - Guia da Semana.jpeg" alt="Livro 1">
             </div>
-            <div>
-                catalogo
+            <div class="card" onclick="openModal('Livro 2', 'Descrição do livro 2')">
+                <img src="./src/img/Mikki Daughtry & Rachael Lippincott - Todo Esse Tempo.jpeg" alt="Livro 2">
             </div>
-            <div>
-                catalogo
-            </div>
-            <div>
-                catalogo
-            </div>
-            <div>
-                catalogo
+            <div class="card" onclick="openModal('Livro 3', 'Descrição do livro 3')">
+                <img src="./src/img/The Mountain Is You_ Transforming Self-Sabotage Into Self-Mastery.jpeg" alt="Livro 3">
             </div>
         </div>
+        
+        <!-- Modal -->
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <h2 id="modal-title"></h2>
+                <p id="modal-desc"></p>
+            </div>
+        </div>
+        <script>
+            function openModal(title, description) {
+                document.getElementById("modal-title").innerText = title;
+                document.getElementById("modal-desc").innerText = description;
+                document.getElementById("modal").style.display = "flex";
+            }
+            
+            function closeModal() {
+                document.getElementById("modal").style.display = "none";
+            }
+            </script>
+            </body>
+            </html>
+               
     </section>
-    <button>menu</button>
-    <div>
+    <!-- <button>menu</button> -->
+    <!--<div>
         <div>
             <p>Livro</p>
         </div>
@@ -68,7 +87,7 @@
         <div>
             <p>Livro</p>
         </div>
-    </div>
+    </div>-->
     <footer>sla@2025</footer>
 </body>
 </html>

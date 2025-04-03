@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"name": "Biblioteca_Digital",
+			"path": "."
+		},
+		{
+			"name": "icons",
+			"path": "D:/Documentos/ciberSeguranca/Programacao/apresentacao_3_periodo/data/img/icons"
+		},
+		{
+			"name": "js",
+			"path": "D:/Documentos/ciberSeguranca/Programacao/apresentacao_3_periodo/js"
+		},
+		{
+			"name": "pages",
+			"path": "D:/Documentos/ciberSeguranca/Programacao/apresentacao_3_periodo/pages"
+		},
+		{
+			"name": "styles",
+			"path": "D:/Documentos/ciberSeguranca/Programacao/apresentacao_3_periodo/styles"
+		}
+	],
+	"settings": {}
+}
