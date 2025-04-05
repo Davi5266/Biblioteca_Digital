@@ -1,0 +1,70 @@
+/* Catalogo */
+.container {
+    display: flex;
+    width: 400px;
+    margin: 0 auto;
+    justify-content: center;
+}
+.card {
+    height: 200px;
+    flex: 1;
+    transition: .7s;
+}
+.card:hover{
+    flex: 3;
+}
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/*  Card  */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+.modal-content span {
+    color: inherit; /* Mantém as cores do HTML */
+}
+
+.modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 30px;
+    cursor: pointer;
+}
+/*   */
+.nav_bar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav_bar h1{
+    text-align: center;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
