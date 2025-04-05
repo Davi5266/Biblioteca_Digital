@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalhes do Livro</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div id="book-details"></div>
+
+    <script>
+        // Obtém o parâmetro "book" da URL
+        const params = new URLSearchParams(window.location.search);
+        const bookId = params.get("book");
+
+        // Banco de dados local de livros
+        const books = {
+"pequeno-principe": {
+                title: "O Pequeno Príncipe",            
+                desc: "Um clássico de Antoine de Saint-Exupéry...",
+                img: "./src/img/Antoine de Saint-Exupéry-O Pequeno Principe.jpeg"
+            },
+            "dom-casmurro": {
+                title: "Dom Casmurro",
+                desc: "Obra-prima de Machado de Assis...",
+                img: "./src/img/dom-casmurro.jpeg"
+            },
+            "harry-potter": {
+                title: "Harry Potter",
+                desc: "A famosa saga de J.K. Rowling...",
+                img: "./src/img/harry-potter.jpeg"
+            }
+        };
+
+        // Exibir informações do livro ou mensagem de erro
+        const book = books[bookId];
+        if (book) {
+            document.getElementById("book-details").innerHTML = `
+                <h2>${book.title}</h2>
+                <img src="${book.img}" alt="${book.title}">
+                <p>${book.desc}</p>
+                <a href="index.html">Voltar</a>
+            `;
+        } else {
+            document.getElementById("book-details").innerHTML = "<p>Livro não encontrado.</p>";
+        }
+    </script>
+
+</body>
+</html>

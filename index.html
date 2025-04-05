@@ -15,36 +15,28 @@
     <br>
     <section>
         <div class="container">
-            <div class="card" onclick="openModal('Livro 1', 'Descrição do livro 1')">
-                <img src="./src/img/19 livros que todo mundo leu na infância - Guia da Semana.jpeg" alt="Livro 1">
+            <div class="card" onclick="openBookPage('pequeno-principe')">
+                <img src="./src/img/Antoine de Saint-Exupéry-O Pequeno Principe.jpeg" alt="O Pequeno Príncipe">
+                <p>O Pequeno Príncipe</p>
             </div>
-            <div class="card" onclick="openModal('Livro 2', 'Descrição do livro 2')">
-                <img src="./src/img/Mikki Daughtry & Rachael Lippincott - Todo Esse Tempo.jpeg" alt="Livro 2">
+        
+            <div class="card" onclick="openBookPage('todo-esse-tempo')">
+                <img src="./src/img/todo-esse-tempo.jpeg" alt="Todo Esse Tempo">
+                <p>Todo Esse Tempo</p>
             </div>
-            <div class="card" onclick="openModal('Livro 3', 'Descrição do livro 3')">
-                <img src="./src/img/The Mountain Is You_ Transforming Self-Sabotage Into Self-Mastery.jpeg" alt="Livro 3">
+        
+            <div class="card" onclick="openBookPage('the-mountain-is-you')">
+                <img src="./src/img/the-mountain-is-you.jpeg" alt="The Mountain Is You">
+                <p>The Mountain Is You</p>
             </div>
         </div>
         
-        <!-- Modal -->
-        <div id="modal" class="modal">
-            <div class="modal-content">
-                <span class="close" onclick="closeModal()">&times;</span>
-                <h2 id="modal-title"></h2>
-                <p id="modal-desc"></p>
-            </div>
-        </div>
         <script>
-            function openModal(title, description) {
-                document.getElementById("modal-title").innerText = title;
-                document.getElementById("modal-desc").innerText = description;
-                document.getElementById("modal").style.display = "flex";
+            function openBookPage(bookId) {
+                window.location.href = `livro.html?book=${bookId}`;
             }
-            
-            function closeModal() {
-                document.getElementById("modal").style.display = "none";
-            }
-            </script>
+        </script>
+        
              
     </section>
     <!-- <button>menu</button> -->
