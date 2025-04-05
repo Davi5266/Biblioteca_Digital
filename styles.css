@@ -30,6 +30,32 @@
     justify-content: center;
     align-items: center;
 }
+/*Livro descrição*/
+a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 15px;
+    background: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+a:hover {
+    background: #0056b3;
+}
+.book-images {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+}
+
+.book-image {
+    width: 150px;
+    height: auto;
+    border-radius: 5px;
+}
+
+
 .modal-content span {
     color: inherit; /* Mantém as cores do HTML */
 }
