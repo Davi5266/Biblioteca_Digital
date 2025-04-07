@@ -1,4 +1,37 @@
-teste{
-    "sla":"slalallala",
-    "erro": 9329423
-}
+
+{
+    "o-pequeno-principe": {
+                "title": "O Pequeno Príncipe",            
+                "autor":"<b>Autor:</b> Antoine de Saint-Exupéry",
+                "dtpubli":"<b>Data de publicação:</b> Abril de 1943",
+                "idioma":"<b>Idioma:</b> Português",
+                "genero":"<b>Gênero:</b> Literatura infantil, Novela, Fábula, Ficção especulativa, Fantasia científica",
+                "desc": "<b>Resumo sobre o livro:</b> O Pequeno Príncipe é uma obra atemporal de Antoine de Saint-Exupéry, publicada em 1943. Apesar de parecer um livro infantil, sua narrativa poética e filosófica traz reflexões profundas sobre a vida, a amizade, o amor e a essência humana.A história acompanha um aviador que, após uma pane no deserto, encontra um pequeno príncipe vindo de um asteroide distante. Durante a conversa, o menino compartilha suas experiências ao visitar diferentes planetas, onde conhece personagens que representam traços humanos, como a vaidade, o poder e a ambição. Na Terra, ele aprende sobre a importância dos laços afetivos com uma raposa, que lhe ensina que o essencial é invisível aos olhos.Com uma linguagem simples e simbólica, o livro convida o leitor a enxergar o mundo com os olhos da infância, valorizando sentimentos genuínos e questionando a rigidez da vida adulta.",
+                "images": ["./src/img/o_pequeno-principe/Antoine de Saint-Exupéry-O Pequeno Principe.jpeg",
+                         "./src/img/o_pequeno-principe/o_pequeno_principe.png",
+                         "./src/img/o_pequeno-principe/o-pequeno-principe2.png",
+                         "./src/img/o_pequeno-principe/o_pequeno_principe3.png"
+           ] },
+            "todo-esse-tempo": {
+                "title": "Todo Esse Tempo",
+                "autor":"<b>Autoras:</b> Rachael Lippincott, Mikki Daughtry",
+                "dtpubli":"<b>Data de publicação:</b> 29 de setembro de 2020",
+                "idioma":"<b>Idioma:</b> Português",
+                "genero":"<b>Gênero:</b> Ficção, Romance de amor",
+                "desc": "<b>Resumo sobre o livro:</b> Após um grave acidente de carro, Kyle sobrevive, mas sua namorada Kim morre. Ele se vê perdido Kyle sempre teve uma vida perfeita ao lado de Kim, sua namorada. No entanto, um acidente de carro muda tudo: Kim morre, e Kyle precisa lidar com a dor e a culpa. Em meio ao luto, ele conhece Marley, uma garota que também carrega uma história triste. A conexão entre eles cresce conforme compartilham suas dores e esperanças. No entanto, uma reviravolta inesperada muda tudo. O livro traz um romance emocionante e reflexivo. A história explora temas como perda, recomeço e a importância do amor verdadeiro.até conhecer Marley, uma garota com sua própria história de dor. Os dois criam um vínculo inesperado, aprendendo a lidar com o luto e a importância do amor. É um romance emocionante, cheio de reviravoltas e reflexões sobre a vida.",
+                "images": ["./src/img/todo_esse-tempo/Mikki Daughtry & Rachael Lippincott - Todo Esse Tempo.jpeg",
+                        "./src/img/todo_esse-tempo/todo_esse-tempo.png",
+                        "./src/img/todo_esse-tempo/todo_esse_tempo.png"
+            ]},
+            "the-mountain-is-you": {
+                "title": "The Mountain Is You",
+                "autor":"<b>Autor:</b> Brianna Wiest ",
+                "dtpubli":"<b>Data de publicação:</b> 2020",
+                "idioma":"<b>Idioma:</b> Inglês",
+                "genero":"<b>Gênero:</b>Livro de autoajuda",
+                "desc": "<b>Resumo sobre o livro:</b> Transformando a autossabotaO livro explora a autossabotagem e como superá-la para alcançar uma vida mais plena. Brianna Wiest explica que muitas barreiras que enfrentamos são criadas por nós mesmos. A montanha do título simboliza desafios internos, medos e inseguranças. A autora ensina a identificar padrões autodestrutivos e a transformar pensamentos negativos. A obra combina psicologia, desenvolvimento pessoal e inteligência emocional. Wiest aborda a importância da resiliência e do autoconhecimento. O livro incentiva mudanças de mentalidade para uma vida mais equilibrada. Com uma abordagem prática, ajuda a construir hábitos positivos. É ideal para quem busca crescimento emocional e evolução pessoal.gem em autodomínio...",
+                "images": ["./src/img/The_mountain_is-you/The Mountain Is You_ Transforming Self-Sabotage Into Self-Mastery.jpeg",
+                        "./src/img/The_mountain_is-you/the_mountain_is-you.png",
+                        "./src/img/The_mountain_is-you/the_mountain_is_you.png"
+            ]}
+ }
