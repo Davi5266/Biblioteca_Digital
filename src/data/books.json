@@ -33,5 +33,88 @@
                 "images": ["./src/img/The_mountain_is-you/The Mountain Is You_ Transforming Self-Sabotage Into Self-Mastery.jpeg",
                         "./src/img/The_mountain_is-you/the_mountain_is-you.png",
                         "./src/img/The_mountain_is-you/the_mountain_is_you.png"
-            ]}
- }
+            ]},
+
+            "bibliioteca-da-Meia-Noite": {
+                "title": "A Biblioteca da Meia-Noite",
+                "autor": "<b>Autor:</b> Matt Haig",
+                "dtpubli": "<b>Data de publicação:</b> 2020",
+                "idioma": "<b>Idioma:</b> Português",
+                "genero": "<b>Gênero:</b> Ficção, Fantasia",
+                "desc": "<b>Resumo sobre o livro:</b> Nora Seed descobre uma biblioteca mágica entre a vida e a morte, onde pode explorar diferentes versões de sua existência e descobrir o que realmente importa.",
+                "images": ["./src/img/Biblioteca-da-meia-noite/biblioteca da meia noite 1.png", "./src/img/Biblioteca-da-meia-noite/biblioteca da meia noite 2.png", "./src/img/Biblioteca-da-meia-noite/biblioteca da meia noite 3.png" ]
+            },
+            "A-Empregada": {
+                "title": "A Empregada",
+                "autor": "<b>Autora:</b> Freida McFadden",
+                "dtpubli": "<b>Data de publicação:</b> 2022",
+                "idioma": "<b>Idioma:</b> Português",
+                "genero": "<b>Gênero:</b> Thriller Psicológico, Mistério",
+                "desc": "<b>Resumo sobre o livro:</b> Molly Gray trabalha como empregada em um hotel de luxo, mas sua vida muda drasticamente quando se torna suspeita de um assassinato dentro do local.",
+                "images": ["./src/img/A-empregada/A empregada1", "./src/img/A-empregada/A empregada2", "./src/img/A-empregada/A empregada3" ]
+            },
+            "O-Morro-dos-Ventos-Uivantes": {
+                "title": "O Morro dos Ventos Uivantes",
+                "autor": "<b>Autora:</b> Emily Brontë",
+                "dtpubli": "<b>Data de publicação:</b> 1847",
+                "idioma": "<b>Idioma:</b> Português",
+                "genero": "<b>Gênero:</b> Romance, Drama",
+                "desc": "<b>Resumo sobre o livro:</b> A intensa história de amor e vingança entre Heathcliff e Catherine em meio à paisagem sombria dos ermos ingleses.",
+                "images": ["./src/img/O-morro-dos-ventos-uivantes/morro dos ventos uivantes1.png", "./src/img/O-morro-dos-ventos-uivantes/morro dos ventos uivantes2.png", "./src/img/O-morro-dos-ventos-uivantes/morro dos ventos uivantes3.png"]
+            },
+            "A-Garota-do-Lago": {
+                "title": "A Garota do Lago",
+                "autor": "<b>Autor:</b> Charlie Donlea",
+                "dtpubli": "<b>Data de publicação:</b> 2017",
+                "idioma": "<b>Idioma:</b> Português",
+                "genero": "<b>Gênero:</b> Suspense, Mistério",
+                "desc": "<b>Resumo sobre o livro:</b> A jornalista Kelsey Castle investiga o assassinato de uma jovem aparentemente perfeita em uma cidade pequena, descobrindo segredos obscuros.",
+                "images": ["./src/img/a-garota-do-lago/A garota do lago1.png", "./src/img/a-garota-do-lago/A garota do lago2.png", "./src/img/a-garota-do-lago/A garota do lago3.png"]
+            },
+            "Como-Falar-em-Publico-e-Encantar-as-Pessoas": {
+                "title": "Como Falar em Público e Encantar as Pessoas",
+                "autor": "<b>Autor:</b> Dale Carnegie",
+                "dtpubli": "<b>Data de publicação:</b> 1956",
+                "idioma": "<b>Idioma:</b> Português",
+                "genero": "<b>Gênero:</b> Desenvolvimento Pessoal, Comunicação",
+                "desc": "<b>Resumo sobre o livro:</b> Técnicas e estratégias para melhorar a oratória, vencer o medo de falar em público e influenciar pessoas com confiança.",
+                "images": ["./src/img/Como-falar-em-público-e-encantar-as-pessoas/Como falar em público e encantar as pessoas1.png"]
+            },
+            "Os-Segredos-da-Mente-Milionaria": {
+                "title": "Os Segredos da Mente Milionária",
+                "autor": "<b>Autor:</b> T. Harv Eker",
+                "dtpubli": "<b>Data de publicação:</b> 2005",
+                "idioma": "<b>Idioma:</b> Português",
+                "genero": "<b>Gênero:</b> Finanças, Desenvolvimento Pessoal",
+                "desc": "<b>Resumo sobre o livro:</b> Como mudar crenças limitantes sobre dinheiro e adotar hábitos financeiros das pessoas bem-sucedidas para alcançar a riqueza.",
+                "images": ["./src/img/Os-segredos-da-mente-milionária/Os segredos da mente milionária1.png"]
+            },
+            "Gatilhos-Mentais": {
+                "title": "Gatilhos Mentais",
+                "autor": "<b>Autor:</b> Allan Costa",
+                "dtpubli": "<b>Data de publicação:</b> 2018",
+                "idioma": "<b>Idioma:</b> Português",
+                "genero": "<b>Gênero:</b> Marketing, Negócios",
+                "desc": "<b>Resumo sobre o livro:</b> Guia prático sobre estratégias de persuasão e como utilizá-las no marketing e nas negociações para influenciar decisões.",
+                "images": ["./src/img/Gatilhos-mentais/gatilhos mentais1.png"]
+            },
+            "Quebrando-o-Habito-de-Ser-Voce-Mesmo": {
+                "title": "Quebrando o Hábito de Ser Você Mesmo",
+                "autor": "<b>Autor:</b> Joe Dispenza",
+                "dtpubli": "<b>Data de publicação:</b> 2012",
+                "idioma": "<b>Idioma:</b> Português",
+                "genero": "<b>Gênero:</b> Autoajuda, Neurociência",
+                "desc": "<b>Resumo sobre o livro:</b> Explica como reprogramar a mente e criar uma nova realidade através da neurociência e do poder do pensamento.",
+                "images": [".src/img/Quebrando-o-Hábito-de-ser-Voce-Mesmo/quebrando o habito de ser voce mesmo1.png", ".src/img/Quebrando-o-Hábito-de-ser-Voce-Mesmo/quebrando o habito de ser voce mesmo2.png", ".src/img/Quebrando-o-Hábito-de-ser-Voce-Mesmo/quebrando o habito de ser voce mesmo3.png"]
+            },
+            "solo-leveling": {
+                "title": "Solo Leveling",
+                "autor": "<b>Autor:</b> Chugong",
+                "dtpubli": "<b>Data de publicação:</b> 2018",
+                "idioma": "<b>Idioma:</b> Português",
+                "genero": "<b>Gênero:</b> Ação, Fantasia, Aventura",
+                "desc": "<b>Resumo sobre o livro:</b> Em um mundo onde portais conectam a Terra a dimensões cheias de monstros, Sung Jin-Woo é o caçador mais fraco. Após um evento misterioso em uma masmorra dupla, ele ganha a habilidade de subir de nível sozinho, tornando-se o caçador mais poderoso da humanidade.",
+                "images": ["./src/img/solo_leveling/solo_leveling_01.jpg"]
+                }
+
+        }
