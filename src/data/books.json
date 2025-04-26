@@ -41,7 +41,7 @@
                 "dtpubli": "<b>Data de publicação:</b> 2020",
                 "idioma": "<b>Idioma:</b> Português",
                 "genero": "<b>Gênero:</b> Ficção, Fantasia",
-                "desc": "<b>Resumo sobre o livro:</b> Nora Seed descobre uma biblioteca mágica entre a vida e a morte, onde pode explorar diferentes versões de sua existência e descobrir o que realmente importa.",
+                "desc": "<b>Resumo sobre o livro:</b> Nora Seed está cansada da vida e decide acabar com tudo. Entre a vida e a morte, ela encontra a Biblioteca da Meia-Noite, um lugar mágico onde cada livro representa uma vida diferente que ela poderia ter vivido. Através dessas vidas alternativas, Nora explora arrependimentos, sonhos e oportunidades perdidas. Cada escolha é uma chance de se redescobrir. A história discute depressão, propósito e felicidade. Ao visitar várias realidades, ela entende que a perfeição é uma ilusão. O livro mistura fantasia e filosofia de forma leve. Nora aprende a aceitar suas imperfeições. Um convite a valorizar a vida como ela é.",
                 "images": ["./src/img/Biblioteca-da-meia-noite/biblioteca da meia noite 1.png", "./src/img/Biblioteca-da-meia-noite/biblioteca da meia noite 2.png", "./src/img/Biblioteca-da-meia-noite/biblioteca da meia noite 3.png" ]
             },
             "A-Empregada": {
@@ -50,7 +50,7 @@
                 "dtpubli": "<b>Data de publicação:</b> 2022",
                 "idioma": "<b>Idioma:</b> Português",
                 "genero": "<b>Gênero:</b> Thriller Psicológico, Mistério",
-                "desc": "<b>Resumo sobre o livro:</b> Molly Gray trabalha como empregada em um hotel de luxo, mas sua vida muda drasticamente quando se torna suspeita de um assassinato dentro do local.",
+                "desc": "<b>Resumo sobre o livro:</b> Millie é contratada para ser a nova empregada de uma família rica. Aos poucos, ela percebe que os patrões escondem segredos obscuros. Manipulação psicológica, tensão e jogos de poder dominam a narrativa. Millie, que também tem um passado complicado, precisa agir com inteligência para sobreviver. O suspense cresce a cada capítulo. O livro explora temas como desigualdade social e abuso de poder. A escrita é ágil e mantém o leitor preso. Repleto de reviravoltas, a história desafia expectativas. O final é surpreendente e impactante.",
                 "images": ["./src/img/A-empregada/A empregada1", "./src/img/A-empregada/A empregada2", "./src/img/A-empregada/A empregada3" ]
             },
             "O-Morro-dos-Ventos-Uivantes": {
@@ -59,7 +59,7 @@
                 "dtpubli": "<b>Data de publicação:</b> 1847",
                 "idioma": "<b>Idioma:</b> Português",
                 "genero": "<b>Gênero:</b> Romance, Drama",
-                "desc": "<b>Resumo sobre o livro:</b> A intensa história de amor e vingança entre Heathcliff e Catherine em meio à paisagem sombria dos ermos ingleses.",
+                "desc": "<b>Resumo sobre o livro:</b> Catherine e Heathcliff vivem um amor intenso e destrutivo. Criado como um filho adotivo, Heathcliff cresce com rancor e desejo de vingança. O cenário é sombrio: charnecas, ventos e paixões tempestuosas. O romance trata da obsessão, ódio e amor doentio. Emily Brontë cria personagens complexos e imperfeitos. A narrativa é sombria e intensa, cheia de tragédias. O tempo e as gerações passam, mas as consequências desse amor ecoam. É uma história sobre destruição emocional. Um clássico da literatura inglesa. Atmosfera pesada e escrita profunda.",
                 "images": ["./src/img/O-morro-dos-ventos-uivantes/morro dos ventos uivantes1.png", "./src/img/O-morro-dos-ventos-uivantes/morro dos ventos uivantes2.png", "./src/img/O-morro-dos-ventos-uivantes/morro dos ventos uivantes3.png"]
             },
             "A-Garota-do-Lago": {
@@ -68,7 +68,7 @@
                 "dtpubli": "<b>Data de publicação:</b> 2017",
                 "idioma": "<b>Idioma:</b> Português",
                 "genero": "<b>Gênero:</b> Suspense, Mistério",
-                "desc": "<b>Resumo sobre o livro:</b> A jornalista Kelsey Castle investiga o assassinato de uma jovem aparentemente perfeita em uma cidade pequena, descobrindo segredos obscuros.",
+                "desc": "<b>Resumo sobre o livro:</b> Becca Eckersley, uma jovem promissora, é encontrada morta em uma pequena cidade. O mistério gira em torno de quem seria capaz de matá-la. A jornalista Kelsey Castle é enviada para cobrir o caso. Conforme investiga, ela descobre segredos que a cidade tenta esconder. A história alterna entre o passado de Becca e a investigação de Kelsey. O livro traz suspense, reviravoltas e tensão psicológica. As aparências enganam na pacata Summit Lake. O suspense é crescente, até a verdade chocante ser revelada. Uma leitura rápida e envolvente. Ideal para fãs de thrillers policiais.",
                 "images": ["./src/img/a-garota-do-lago/A garota do lago1.png", "./src/img/a-garota-do-lago/A garota do lago2.png", "./src/img/a-garota-do-lago/A garota do lago3.png"]
             },
             "Como-Falar-em-Publico-e-Encantar-as-Pessoas": {
@@ -77,7 +77,7 @@
                 "dtpubli": "<b>Data de publicação:</b> 1956",
                 "idioma": "<b>Idioma:</b> Português",
                 "genero": "<b>Gênero:</b> Desenvolvimento Pessoal, Comunicação",
-                "desc": "<b>Resumo sobre o livro:</b> Técnicas e estratégias para melhorar a oratória, vencer o medo de falar em público e influenciar pessoas com confiança.",
+                "desc": "<b>Resumo sobre o livro:</b> Baseado nos princípios de Dale Carnegie, o livro ensina técnicas práticas para melhorar a comunicação. Ele mostra como vencer o medo de falar em público. O autor ensina a organizar discursos, envolver a plateia e construir confiança. A persuasão e o carisma são destacados como ferramentas essenciais. O livro é recheado de exemplos práticos e histórias reais. A linguagem é simples e direta. Ideal para iniciantes ou quem quer aprimorar habilidades oratórias. Reforça a importância da preparação e da autenticidade. Leitura obrigatória para líderes e profissionais. Um guia clássico de comunicação eficaz.",
                 "images": ["./src/img/Como-falar-em-público-e-encantar-as-pessoas/Como falar em público e encantar as pessoas1.png"]
             },
             "Os-Segredos-da-Mente-Milionaria": {
@@ -86,7 +86,7 @@
                 "dtpubli": "<b>Data de publicação:</b> 2005",
                 "idioma": "<b>Idioma:</b> Português",
                 "genero": "<b>Gênero:</b> Finanças, Desenvolvimento Pessoal",
-                "desc": "<b>Resumo sobre o livro:</b> Como mudar crenças limitantes sobre dinheiro e adotar hábitos financeiros das pessoas bem-sucedidas para alcançar a riqueza.",
+                "desc": "<b>Resumo sobre o livro:</b> T. Harv Eker explica como crenças limitantes afetam sua vida financeira. O livro mostra que a verdadeira riqueza começa na mente. Ele introduz o conceito do “modelo de dinheiro”, programado desde a infância. Traz 17 arquivos de riqueza para mudar a mentalidade. Eker enfatiza ação, disciplina e foco em resultados. É um livro motivacional, com dicas práticas para gerar prosperidade. A ideia central é reprogramar seu “termostato financeiro”. A linguagem é simples e objetiva. Ideal para quem busca mudança de vida financeira. Inspira atitude e transformação pessoal.",
                 "images": ["./src/img/Os-segredos-da-mente-milionária/Os segredos da mente milionária1.png"]
             },
             "Gatilhos-Mentais": {
@@ -95,7 +95,7 @@
                 "dtpubli": "<b>Data de publicação:</b> 2018",
                 "idioma": "<b>Idioma:</b> Português",
                 "genero": "<b>Gênero:</b> Marketing, Negócios",
-                "desc": "<b>Resumo sobre o livro:</b> Guia prático sobre estratégias de persuasão e como utilizá-las no marketing e nas negociações para influenciar decisões.",
+                "desc": "<b>Resumo sobre o livro:</b> Este livro explora técnicas de persuasão usadas no marketing e na comunicação. Gatilhos como autoridade, escassez, reciprocidade e prova social são explicados. Mostra como eles influenciam decisões inconscientes. A aplicação prática é voltada para vendas e negociações. A linguagem é didática e acessível. Exemplos reais ilustram o funcionamento de cada gatilho. O autor destaca a importância da ética no uso dessas técnicas. O livro também ensina a identificar quando estão sendo usados contra você. Excelente para profissionais de marketing e empreendedores. Um manual prático de influência e persuasão.",
                 "images": ["./src/img/Gatilhos-mentais/gatilhos mentais1.png"]
             },
             "Quebrando-o-Habito-de-Ser-Voce-Mesmo": {
@@ -104,7 +104,7 @@
                 "dtpubli": "<b>Data de publicação:</b> 2012",
                 "idioma": "<b>Idioma:</b> Português",
                 "genero": "<b>Gênero:</b> Autoajuda, Neurociência",
-                "desc": "<b>Resumo sobre o livro:</b> Explica como reprogramar a mente e criar uma nova realidade através da neurociência e do poder do pensamento.",
+                "desc": "<b>Resumo sobre o livro:</b> Dr. Joe Dispenza mistura ciência e espiritualidade para ensinar transformação pessoal. O livro explica como pensamentos criam realidades. Mostra que mudar padrões emocionais e mentais muda sua vida. Traz conceitos de neurociência, física quântica e psicologia. Ensina técnicas de meditação para reprogramar o cérebro. Propõe um método prático para criar uma nova identidade. Incentiva o leitor a abandonar crenças limitantes. A prática diária é essencial para o sucesso. Livro profundo, para quem quer mudanças reais. Um guia para a autotransformação consciente.",
                 "images": [".src/img/Quebrando-o-Hábito-de-ser-Voce-Mesmo/quebrando o habito de ser voce mesmo1.png", ".src/img/Quebrando-o-Hábito-de-ser-Voce-Mesmo/quebrando o habito de ser voce mesmo2.png", ".src/img/Quebrando-o-Hábito-de-ser-Voce-Mesmo/quebrando o habito de ser voce mesmo3.png"]
             },
             "solo-leveling": {
@@ -113,8 +113,118 @@
                 "dtpubli": "<b>Data de publicação:</b> 2018",
                 "idioma": "<b>Idioma:</b> Português",
                 "genero": "<b>Gênero:</b> Ação, Fantasia, Aventura",
-                "desc": "<b>Resumo sobre o livro:</b> Em um mundo onde portais conectam a Terra a dimensões cheias de monstros, Sung Jin-Woo é o caçador mais fraco. Após um evento misterioso em uma masmorra dupla, ele ganha a habilidade de subir de nível sozinho, tornando-se o caçador mais poderoso da humanidade.",
+                "desc": "<b>Resumo sobre o livro:</b>Em um mundo cheio de monstros e caçadores, Sung Jin-Woo é o mais fraco de todos. Após quase morrer em uma missão, ele recebe o poder de evoluir infinitamente. Sung passa de oprimido a caçador lendário. A história é cheia de batalhas épicas e crescimento pessoal. O protagonista enfrenta perigos cada vez maiores. O universo mistura fantasia, RPG e ação frenética. Os gráficos (na versão manhwa) são impressionantes. O enredo prende do início ao fim. Uma jornada de superação e poder absoluto. Ideal para fãs de fantasia sombria.",
                 "images": ["./src/img/solo_leveling/solo_leveling_01.jpg"]
-                }
+            },
+            "one-piece": {
+                    "title": "One Piece",
+                    "autor": "<b>Autor:</b> Eiichiro Oda",
+                    "dtpubli": "<b>Data de publicação:</b> 1997",
+                    "idioma": "<b>Idioma:</b> Português",
+                    "genero": "<b>Gênero:</b> Aventura, Fantasia",
+                    "desc": "<b>Resumo sobre o livro:</b> Monkey D. Luffy sonha em encontrar o One Piece e se tornar o Rei dos Piratas. Ele reúne uma tripulação única e enfrenta aventuras no mar. Cada ilha traz novos desafios e inimigos poderosos. A história mistura ação, amizade e sonhos. É um dos mangás mais longos e amados da história.",
+                    "images": ["./src/img/one_piece/one_piece_01.jpg",
+                               "./src/img/one_piece/one_piece_02.jpg"]
+            },
+            
+            "attack-on-titan": {
+                    "title": "Attack on Titan",
+                    "autor": "<b>Autor:</b> Hajime Isayama",
+                    "dtpubli": "<b>Data de publicação:</b> 2009",
+                    "idioma": "<b>Idioma:</b> Português",
+                    "genero": "<b>Gênero:</b> Ação, Drama, Fantasia Sombria",
+                    "desc": "<b>Resumo sobre o livro:</b>A humanidade luta para sobreviver em cidades cercadas por muralhas. Gigantes devoram humanos e ameaçam a existência. Eren Yeager se junta à Tropa de Exploração para lutar contra eles. Ao longo da história, segredos chocantes sobre os titãs e o mundo são revelados. Uma narrativa intensa sobre liberdade e sobrevivência.",
+                    "images": ["./src/img/attack_on_titan/attack_on_titan_01.jpg",
+                               "./src/img/attack_on_titan/attack_on_titan_02.jpg"]
+            },
+            
+            "naruto": {
+                    "title": "Naruto",
+                    "autor": "<b>Autor:</b> Masashi Kishimoto",
+                    "dtpubli": "<b>Data de publicação:</b> 1999",
+                    "idioma": "<b>Idioma:</b> Português",
+                    "genero": "<b>Gênero:</b> Ação, Aventura, Fantasia",
+                    "desc": "<b>Resumo sobre o livro:</b> Naruto Uzumaki é um jovem ninja com um grande sonho: se tornar Hokage. Carrega dentro de si a Raposa de Nove Caudas. A história mostra sua jornada de crescimento, amizade e superação. Cheia de batalhas épicas e momentos emocionantes. Um dos maiores ícones dos animes e mangás.",
+                    "images": ["./src/img/naruto/naruto_01.jpg"]
+            },
+            
+            "jujutsu-kaisen": {
+                    "title": "Jujutsu Kaisen",
+                    "autor": "<b>Autor:</b> Gege Akutami",
+                    "dtpubli": "<b>Data de publicação:</b> 2018",
+                    "idioma": "<b>Idioma:</b> Português",
+                    "genero": "<b>Gênero:</b> Ação, Sobrenatural, Horror",
+                    "desc": "<b>Resumo sobre o livro:</b> Yuji Itadori se envolve com maldições após encontrar um objeto amaldiçoado. Ele passa a estudar na Escola Jujutsu para aprender a lutar. Luta contra espíritos malignos enquanto enfrenta dilemas internos. A história é marcada por ação rápida e temas sombrios. Um sucesso moderno dos mangás de ação.",
+                    "images": ["./src/img/jujutsu_kaisen/jujutsu_kaisen_01.jpg"]
+                    
+            },
+            "the-apothecary-diaries": {
+                    "title": "The Apothecary Diaries",
+                    "autor": "<b>Autor:</b> Natsu Hyuuga",
+                    "dtpubli": "<b>Data de publicação:</b> 2017",
+                    "idioma": "<b>Idioma:</b> Português",
+                    "genero": "<b>Gênero:</b> Mistério, Histórico, Drama",
+                    "desc": "<b>Resumo sobre o livro:</b>Maomao é uma jovem inteligente que trabalha como criada no palácio imperial. Usando seus conhecimentos em medicina, ela resolve mistérios. Sua inteligência chama a atenção da corte. A história mistura drama, intriga política e ciência antiga. Um belo mergulho na cultura oriental histórica.",
+                    "images": ["./src/img/the_apothecary_diaries/the_apothecary_diaries_01.jpg"]
+             },
 
-        }
+            "wotakoi-love-is-hard-for-otaku": {
+                    "title": "Wotakoi: Love Is Hard for Otaku",
+                    "autor": "<b>Autor:</b> Fujita",
+                    "dtpubli": "<b>Data de publicação:</b> 2014",
+                    "idioma": "<b>Idioma:</b> Português",
+                    "genero": "<b>Gênero:</b> Romance, Comédia",
+                    "desc": "<b>Resumo sobre o livro:</b> Narumi e Hirotaka são colegas de trabalho e otakus. Eles começam um relacionamento tentando equilibrar amor e seus hobbies. A história é leve, engraçada e cheia de referências à cultura pop. Mostra os desafios e as alegrias dos casais nerds. Uma comédia romântica encantadora.",
+                    "images": ["./src/img/wotakoi/wotakoi_01.jpg"]
+            },
+
+            "a-sign-of-affection": {
+                    "title": "A Sign of Affection",
+                    "autor": "<b>Autor:</b> suu Morishita",
+                    "dtpubli": "<b>Data de publicação:</b> 2019",
+                    "idioma": "<b>Idioma:</b> Português",
+                    "genero": "<b>Gênero:</b> Romance, Slice of Life",
+                    "desc": "<b>Resumo sobre o livro:</b>Yuki, uma estudante surda, conhece Itsuomi, um viajante gentil. Eles desenvolvem uma relação cheia de descobertas e emoções. A comunicação entre eles ultrapassa as barreiras da linguagem. A história é doce, sensível e visualmente linda. Um mangá sobre amor, aceitação e crescimento pessoal.",
+                    "images": ["./src/img/a_sign_of_affection/a_sign_of_affection_01.jpg"]
+            },
+
+            "honey-lemon-soda": {
+                    "title": "Honey Lemon Soda",
+                    "autor": "<b>Autor:</b> Mayu Murata",
+                    "dtpubli": "<b>Data de publicação:</b> 2015",
+                    "idioma": "<b>Idioma:</b> Português",
+                    "genero": "<b>Gênero:</b> Romance, Escolar",
+                    "desc": "<b>Resumo sobre o livro:</b> Uka Ishimori era tímida e isolada até conhecer Kai Miura. Inspirada por sua personalidade vibrante, ela busca mudar. É uma história sobre superação, amizade e amor adolescente. A arte é leve e doce. Um shoujo sobre acreditar em si mesmo.",
+                    "images": ["./src/img/honey_lemon_soda/honey_lemon_soda_01.jpg"]
+            },
+
+            "horimiya": {
+                    "title": "Horimiya",
+                    "autor": "<b>Autor:</b> HERO, Daisuke Hagiwara",
+                    "dtpubli": "<b>Data de publicação:</b> 2011",
+                    "idioma": "<b>Idioma:</b> Português",
+                    "genero": "<b>Gênero:</b> Romance, Comédia, Slice of Life",
+                    "desc": "<b>Resumo sobre o livro:</b> Hori é popular e responsável, enquanto Miyamura é quieto e cheio de tatuagens escondidas. Ao se conhecerem melhor, descobrem novas faces um do outro. O romance floresce de forma natural e sincera. O mangá trata de autoaceitação e amizade verdadeira. Uma história romântica cativante.",
+                    "images": ["./src/img/horimiya/horimiya_01.jpg"]
+            },
+
+            "spy-x-family": {
+                    "title": "Spy x Family",
+                    "autor": "<b>Autor:</b> Tatsuya Endo",
+                    "dtpubli": "<b>Data de publicação:</b> 2019",
+                    "idioma": "<b>Idioma:</b> Português",
+                    "genero": "<b>Gênero:</b> Ação, Comédia, Espionagem",
+                    "desc": "<b>Resumo sobre o livro:</b> O espião Twilight precisa construir uma família falsa para sua missão. Ele adota uma menina telepata e se casa com uma assassina, sem que saibam os segredos uns dos outros. A história é uma mistura divertida de ação, humor e fofura. Cada personagem é irresistível. Um dos maiores sucessos atuais.",
+                    "images": ["./src/img/spy_x_family/spy_x_family_01.jpg"]
+            },
+
+            "dandadan": {
+                    "title": "Dandadan",
+                    "autor": "<b>Autor:</b> Yukinobu Tatsu",
+                    "dtpubli": "<b>Data de publicação:</b> 2021",
+                    "idioma": "<b>Idioma:</b> Português",
+                    "genero": "<b>Gênero:</b> Ação, Sobrenatural, Comédia",
+                    "desc": "<b>Resumo sobre o livro:</b> Momo Ayase e Okarun, estudantes excêntricos, se envolvem em batalhas sobrenaturais. A história mistura aliens, fantasmas e poderes psíquicos de forma maluca. Cheio de ação frenética e humor surreal. A arte é extremamente detalhada e dinâmica. Um mangá único e eletrizante.",
+                    "images": ["./src/img/dandadan/dandadan_01.jpg"]
+            }
+}
