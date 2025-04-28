@@ -3,6 +3,37 @@
     padding: 0;
 }
 
+/* Scroll lateral para imagens */
+.book-images {
+    width: 100%;
+    overflow-x: auto; /* habilita o scroll horizontal */
+    white-space: nowrap; /* impede quebra de linha */
+    padding: 10px;
+    /* background: #f0f0f0; */
+  }
+
+  .book-images img {
+    height: 200px;
+    margin-right: 10px;
+    display: inline-block;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  /* Estilizar a barra de rolagem (opcional) */
+  .book-images::-webkit-scrollbar {
+    height: 8px;
+  }
+
+  .book-images::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+  }
+
+  .book-images::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
 /* Livro descrição */
 
 .book_container{

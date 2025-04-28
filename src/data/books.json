@@ -226,5 +226,86 @@
                     "genero": "<b>Gênero:</b> Ação, Sobrenatural, Comédia",
                     "desc": "<b>Resumo sobre o livro:</b> Momo Ayase e Okarun, estudantes excêntricos, se envolvem em batalhas sobrenaturais. A história mistura aliens, fantasmas e poderes psíquicos de forma maluca. Cheio de ação frenética e humor surreal. A arte é extremamente detalhada e dinâmica. Um mangá único e eletrizante.",
                     "images": ["./src/img/dandadan/dandadan_01.jpg"]
+            },
+            "Oyasumi-Punpun":{
+                "title": "Oyasumi Punpun",
+                    "autor": "<b>Autor:</b> Inio Asano",
+                    "dtpubli": "<b>Data de publicação:</b> 15 de março de 2007",
+                    "idioma": "<b>Idioma:</b> Português",
+                    "genero": "<b>Gêneros:</b> Coming-of-age, Drama, Slice of life",
+                    "desc": "<b>Resumo sobre o livro:</b> Punpun Onodera é um garoto normal de 11 anos que mora no Japão. Idealista e romântico sem esperança, Punpun começa a ver sua vida tomar um rumo sutil — embora ainda assim surpreendente — para o adulto quando conhece a nova garota de sua classe, Aiko Tanaka. É então que o garoto quieto aprende o quão inconstante pode ser manter um relacionamento e as dificuldades de superar a transição de uma infância ingênua para uma vida adulta complicada. Quando seu pai agride sua mãe uma noite, Punpun percebe outra coisa: aqueles que ele admirava não eram tão impressionantes quanto ele pensava. À medida que seus problemas aumentam, o comportamento tímido de Punpun se transforma em reclusão voluntária. Em vez de curá-lo de seus problemas e emoções conflitantes, isso apenas os intensifica, enviando-o pelo caminho escuro da maturidade nesta saga sombria de amadurecimento.",
+                    "images": ["./src/img/Oyasumi-Punpun/Oyasumi-Punpun_01.jpg", "./src/img/Oyasumi-Punpun/Oyasumi-Punpun_02.jpg","./src/img/Oyasumi-Punpun/Oyasumi-Punpun_03.jpg","./src/img/Oyasumi-Punpun/Oyasumi-Punpun_04.jpg","./src/img/Oyasumi-Punpun/Oyasumi-Punpun_05.jpg","./src/img/Oyasumi-Punpun/Oyasumi-Punpun_06.jpg","./src/img/Oyasumi-Punpun/Oyasumi-Punpun_07.jpg"]
+            },
+            "Grand-Blue":{
+                "title":"Grand Blue",
+                "autor":"<b>Autor:</b> Kenji Inoue",
+                "dtpubli": "<b>Data de publicação:</b> 7 de abril de 2014",
+                "idioma": "<b>Idioma:</b> Português",
+                "genero": "<b>Gêneros:</b> comédia",
+                "desc":" <b>Resumo sobre o livro:</b> Iori Kitahara se muda para a cidade costeira de Izu para seu primeiro ano na universidade, fixando residência acima da Grand Blue, a loja de mergulho de seu tio. Iori tem grandes esperanças e sonhos em ter a experiência universitária ideal, mas quando entra na loja é sugado para as atividades alcoólicas dos membros despreocupados do Clube de Mergulho que frequentam o local. Persuadido pelos veteranos Shinji Tokita e Ryuujirou Kotobuki, Iori relutantemente se junta ao grupo bizarro. Sua prima Chisa Kotegawa mais tarde entra e o pega em flagrante, ganhando Iori seu total desdém.",
+                "images":["./src/img/Grand-blue/grand-blue.jpg"]
+            },
+            "The-God-of-High-School":{
+                "title":"The God of High School",
+                "autor":"<b>Autores:</b> Park, Yong-Je(história e arte)",
+                "dtpubli":"<b>Data de publicação:</b>",
+                "idioma":"<b>Idioma:</b>",
+                "genero":"<b>Gêneros:</b> ação, aventura, fantasia",
+                "desc":"<b>Resumo sobre o livro:</b> O 'Deus do Ensino Médio' é uma competição acirrada realizada entre estudantes coreanos do ensino médio para determinar o melhor lutador entre eles. Todos os estilos de artes marciais e armas são permitidos. O prêmio final? O desejo mais profundo do vencedor será atendido, não importa o custo. Jin Mo-Ri treina taekwondo com seu avô desde tenra idade. Obcecado por lutar, ele entra no torneio para encontrar e desafiar oponentes mais fortes. Ao longo do caminho, ele conhece Han Dae-Wi, um especialista em karatê que está determinado a se tornar o campeão para ajudar seu amigo que está entre a vida e a morte, e Yu Mi-Ra, uma espadachim habilidosa que quer continuar o legado de sua família.",
+                "images":["./src/img/"]
+            },
+            "Mairimashita!_Iruma-kun":{
+                "title":"Mairimashita! Iruma-kun",
+                "autor":"<b>Autor:</b> Nishi, Osamu (história & Arte)",
+                "dtpubli":"<b>Data de publicação:</b> 2 de março de 2017",
+                "idioma":"<b>Idioma:</b>",
+                "genero":"<b>Gêneros:</b> comédia, fantasia",
+                "desc":"<b>Resumo sobre o livro:</b> Iruma Suzuki, de quatorze anos, tem a pior sorte possível! Incapaz de dizer não a ninguém, ele sempre realizou todos os trabalhos com risco de vida que seus pais gananciosos e preguiçosos solicitaram. Sua vida toma um rumo inesperado quando eles formam um contrato com Sullivan, um demônio de alto escalão, ao custo de sua alma. Com medo e confuso, Iruma fica surpreso que tudo o que Sullivan quer é agir como seu avô.Sullivan cuida de Iruma e decide matriculá-lo na escola demoníaca Babyls. O maior desafio de Iruma é esconder seu status de humano, então manter um perfil discreto entre seus colegas é a única opção. No entanto, Iruma logo descobrirá que ele não é um humano comum, e os demônios também podem ser mais do que aparenta.",
+                "images":["./src/img/Mairimashita!_Iruma-kun01.jpg"]
+            },
+            "Inuyashiki":{
+                "title":"Inuyashiki",
+                "autor":"<b>Autor:</b> Oku, Hiroya (História & Arte)",
+                "dtpubli":"<b>Data de publicação:</b> 28 de janeiro de 2014",
+                "idioma":"<b>Idioma:</b>",
+                "genero":"<b>Gêneros:</b> Drama, Sci-Fi",
+                "desc":"<b>Resumo sobre o livro:</b> Ichirou Inuyashiki é um velho pai desgastado pelas dificuldades da vida, tornando-o indefeso e fraco. Embora ele não tenha amigos, não seja amado por sua família e tenha sido diagnosticado com câncer, ele decide tentar viver sua melhor vida e adota um cachorro. No entanto, enquanto passeava com seu cachorro uma noite, a realidade de sua situação desesperadora se instala e ele começa a soluçar em um parque. Mas essa tristeza dura pouco, pois um encontro com um objeto extraterrestre o deixa com um corpo saudável, mas mecânico. Perturbado pelo corpo estranho e sua incapacidade de chorar mais, Inuyashiki começa a acreditar que perdeu sua humanidade.No entanto, uma noite, ele salva um sem-teto da morte, e a visão do homem feliz e grato o leva às lágrimas - provando a ele que ele ainda é um humano. A partir desse momento, Inuyashiki resolve colocar seu novo poder em uso com o propósito de salvar os necessitados.Infelizmente, sua alegria não dura muito, pois ele descobre que há uma nova ameaça determinada a se deleitar com seu próprio poder recém-descoberto por meios horripilantes. Assim, a missão de Inuyashiki deixa de ser um pequeno herói da vizinhança para se tornar um guardião contra um monstro próspero.",
+                "images":["./src/img/Inuyashiki/Inuyashiki.jpg"]
+            },
+            "Monster":{
+                "title":"Monster",
+                "autor":"<b>Autor:</b>Urasawa, Naoki (História & Arte)",
+                "dtpubli":"<b>Data de publicação:</b> 5 de dezembor de 1994",
+                "idioma":"<b>Idioma:</b>",
+                "genero":"<b>Gêneros:</b>  Award Winning, Drama, Mistério",
+                "desc":"<b>Resumo sobre o livro:</b> Kenzou Tenma, um renomado neurocirurgião japonês que trabalha na Alemanha do pós-guerra, enfrenta uma escolha difícil: operar Johan Liebert, um menino órfão à beira da morte, ou o prefeito de Düsseldorf. No final, Tenma decide arriscar sua reputação salvando Johan, efetivamente deixando o prefeito para morrer. </br> Como consequência de suas ações, o diretor do hospital Heinemann tira Tenma de sua posição, e a filha de Heinemann, Eva, rompe o noivado. Desonrado e evitado por seus colegas, Tenma perde toda a esperança de uma carreira de sucesso - isto é, até que o misterioso assassinato de Heinemann lhe dá outra chance. </br> Nove anos depois, Tenma é o chefe do departamento cirúrgico e está perto de se tornar o próprio diretor. Embora tudo pareça bem para ele no início, ele logo se envolve em uma cadeia de assassinatos horríveis que ocorreram em toda a Alemanha. O culpado é um monstro - o mesmo que Tenma salvou naquele dia fatídico há nove anos.",
+                "images":["./src/img/Monster/Monster.jpg"]
+            },
+            "Kaijuu_8-gou":{
+                "title":"Kaijuu 8-gou",
+                "autor":"<b>Autor:</b>  Matsumoto, Naoya (História & Arte)",
+                "dtpubli":"<b>Data de publicação:</b> 3 de julho de 2020",
+                "idioma":"<b>Idioma:</b>",
+                "genero":"<b>Gêneros:</b>  Ação, Fantasia, Sci-Fi",
+                "desc":"<b>Resumo sobre o livro:</b> Monstros grotescos, parecidos com Godzilla, chamados 'kaijuu', aparecem no Japão há muitos anos. Para combater essas feras, uma unidade militar de elite conhecida como Corpo de Defesa arrisca suas vidas diariamente para proteger os civis. Uma vez que uma criatura é morta, os 'varredores' - trabalhando sob a Professional Kaijuu Cleaner Corporation - são deixados para descartar seus restos mortais. </br> Kafka Hibino, um homem de 32 anos, está insatisfeito com seu trabalho como varredor. Desde tenra idade, ele aspira a se juntar ao Corpo de Defesa e matar kaijuus para viver. Depois de algumas tentativas fracassadas, no entanto, ele desistiu de seus sonhos e se resignou à mediocridade que fornecia um salário decente. No entanto, quando um ambicioso recruta de 18 anos chamado Reno Ichikawa se junta à sua equipe de limpeza, Kafka é mais uma vez lembrado de seu desejo de se juntar ao exército. </br> Após uma cadeia de eventos infelizes e uma interação com o varredor júnior, Kafka encontra um kaijuu do tipo parasita que força seu caminho através de sua boca - transformando-o em um monstro humanóide. Com seus novos poderes, Kafka pretende dar uma última chance ao seu sonho de toda a vida.",
+                "images":["./src/img/Kaijuu_8-gou/Kaijuu_8-gou.jpg"]
+            },
+            "Hellsing":{
+                "title":"Hellsing",
+                "autor":"<b>Autor:</b>  Hirano, Kouta (História & Arte)",
+                "dtpubli":"<b>Data de publicação:</b> 30 de abril de 1997",
+                "idioma":"<b>Idioma:</b>",
+                "genero":"<b>Gêneros:</b> Ação, Horror, Subrenatural",
+                "desc":"<b>Resumo sobre o livro:</b> Durante séculos, muitas organizações secretas participaram do extermínio de vários tipos de monstros perigosos. Um deles é o Hellsing, com sede na Inglaterra, dirigido por seu astuto líder, Sir Integra Fairbrook Wingates Hellsing. Seu maior caçador e trunfo é Alucard, um vampiro imbatível geneticamente modificado por seu pai. Apesar de ele ser um deles, ele jurou ser seu protetor e servo.</br> Uma nova crise começa e com a ajuda de Seras Victoria, sua parceira vampira recém-transformada, Alucard tem que descobrir a verdade por trás dos misteriosos ataques de vampiros. Nem todo ser humano é obrigado a ser seu aliado nesta batalha, e ele não hesitará em matar qualquer um que estiver em seu caminho.",
+                "images":["./src/img/Hellsing/Hellsing.jpg"]
+            },
+            "Slam_Dunk":{
+                "title":"Slam Dunk",
+                "autor":"<b>Autor:</b>  Inoue, Takehiko (História & Arte)",
+                "dtpubli":"<b>Data de publicação:</b> 18 de Setembro de 1990",
+                "idioma":"<b>Idioma:</b>",
+                "genero":"<b>Gêneros:</b>  Award Winning, Esportes",
+                "desc":"<b>Resumo sobre o livro:</b> Hanamichi Sakuragi, um adolescente alto e barulhento com cabelos ruivos e força física além de sua idade, está ansioso para acabar com sua sequência de rejeição de 50 anos e finalmente conseguir uma namorada ao começar seu primeiro ano de Shohoku High. No entanto, sua reputação de delinqüência e destrutividade o precede, e a maioria de seus colegas subsequentemente o evita como uma praga. Quando seu primeiro dia de aula termina, ele fica com dois pensamentos fortes: 'Eu odeio basquete' e 'Eu preciso de uma namorada'. Haruko Akagi, ignorante da história de mau comportamento de Hanamichi, percebe sua imensa altura e involuntariamente se aproxima dele, perguntando se ele gosta ou não de basquete. Superado pelo fato de que uma garota está falando com ele, o gigante ruivo deixa escapar um sim, apesar de seus verdadeiros sentimentos. Na academia, Haruko pergunta se ele pode fazer uma enterrada. Embora seja um novato completo, Hanamachi espalma a bola e dá o salto... mas ultrapassa, batendo a cabeça na tabela. Espantado com suas habilidades físicas quase desumanas, Haruko rapidamente notifica o capitão de basquete da escola sobre sua façanha. Com isso, Hanamichi é inesperadamente empurrado para um mundo de competição por uma garota que ele mal conhece, mas logo descobre que talvez haja mais no basquete do que ele pensava.",
+                "images":[ "./src/img/Slam_Dunk/Slam_Dunk_01.jpg", "./src/img/Slam_Dunk/Slam_Dunk_02.jpg", "./src/img/Slam_Dunk/Slam_Dunk_03.jpg", "./src/img/Slam_Dunk/Slam_Dunk_04.jpg", "./src/img/Slam_Dunk/Slam_Dunk_05.jpg", "./src/img/Slam_Dunk/Slam_Dunk_06.jpg", "./src/img/Slam_Dunk/Slam_Dunk_07.jpg", "./src/img/Slam_Dunk/Slam_Dunk_08.jpg", "./src/img/Slam_Dunk/Slam_Dunk_09.jpg", "./src/img/Slam_Dunk/Slam_Dunk_10.jpg"]
             }
 }

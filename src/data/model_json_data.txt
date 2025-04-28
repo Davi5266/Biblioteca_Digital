@@ -1,0 +1,9 @@
+"":{
+                "title":"",
+                "autor":"<b>Autor:</b>",
+                "dtpubli":"<b>Data de publicação:</b>",
+                "idioma":"<b>Idioma:</b>",
+                "genero":"<b>Gêneros:</b>",
+                "desc":"<b>Resumo sobre o livro:</b>",
+                "images":["./src/img/"]
+            }

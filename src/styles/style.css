@@ -150,7 +150,7 @@ Mantém as cores do HTML
     height: 100px;
     margin: 5px;
     padding: 5px;
-    align-items: center;
+    /* align-items: center; */
     /* width: 6em; */
 }
 
@@ -195,13 +195,17 @@ footer{
     flex-wrap: wrap;
     margin-top: 5em;
     background-color: var(--corTerciaria);
-    margin: 5px;
+    /* margin: 5px; */
+
 }
 
 .div_book div p{
-    display: flex;
+    /* display: flex; */
     text-align: center;
-    
+    /* word-wrap: break-word; */
+    /* overflow-wrap: break-word; */
+    /* background-color: red; */
+    /* white-space: normal; */
 }
 
 /* .container {
@@ -209,5 +213,12 @@ footer{
   } */
 
 .div_book div{
-    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 5px;
+    padding: 7px;
+    /* padding-bottom: 3px; */
+    /* height: 20px; */
+    /* width: 20px; */
 }
