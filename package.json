@@ -1,0 +1,25 @@
+{
+  "name": "biblioteca_digital",
+  "version": "1.0.0",
+  "description": "Trabalho de programação do 3 período- Profº Eduardo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Davi5266/Biblioteca_Digital.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Davi5266/Biblioteca_Digital/issues"
+  },
+  "homepage": "https://github.com/Davi5266/Biblioteca_Digital#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "sequelize": "^6.37.7"
+  }
+}
