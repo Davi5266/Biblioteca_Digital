@@ -1,70 +1,78 @@
-*{
+:root {
+    --corPrimaria: #ffffff;
+    --secondary-color: #f5f5f5;
+    --accent-color: #ff7b39;
+    --text-color: #1e1e1e;
+    }
+
+* {
     margin: 0;
     padding: 0;
-}
-/* Color01 */
-/* :root{
-    --corPrimaria: #000000;
-    --corSecundaria: #222222;
-    --corTerciaria: #1DCD9F;
-    --corCuaternaria: #169976;
-} */
-/* Color02 */
-/* :root{
-    --corPrimaria: #F8F4E1;
-    --corSecundaria: #FEBA17;
-    --corTerciaria: #74512D;
-    --corCuaternaria: #4E1F00;
-} */
-/* Color03 */
-/* :root{
-    --corPrimaria: #604652;
-    --corSecundaria: #735557;
-    --corTerciaria: #97866A;
-    --corCuaternaria: #D29F80;
-} */
-/* Color04 */
-/* :root{
-    --corPrimaria: #706D54;
-    --corSecundaria: #A08963;
-    --corTerciaria: #C9B194;
-    --corCuaternaria: #DBDBDB;
-} */
-/* Color05 */
-/* :root{
-    --corPrimaria: #211C84;
-    --corSecundaria: #4D55CC;
-    --corTerciaria: #7A73D1;
-    --corCuaternaria: #B5A8D5;
-} */
-
-/* Color06 */
-/* :root{
-    --corPrimaria: #211C84;
-    --corSecundaria: #4D55CC;
-    --corTerciaria: #e3dfc8;
-    --corCuaternaria: #808c6c;
-} */
-
-/* Color07 */
-:root{
-    --corPrimaria: #211C84;
-    --corSecundaria: #4D55CC;
-    --corTerciaria: #fffbe9;
-    --corCuaternaria: #ad8b73;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
 }
 
-body{
-    background-color: var(--corTerciaria);
+body {
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    line-height: 1.6;
 }
 
+header {
+    background-color: var(--corPrimaria);
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+.logo {
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+nav a {
+    margin-left: 2rem;
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: 600;
+}
+
+.hero {
+    background: url('https://images.unsplash.com/photo-1512820790803-83ca734da794') center/cover no-repeat;
+    height: 60vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+}
+
+.hero-text {
+    max-width: 500px;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.btn {
+    padding: 0.75rem 1.5rem;
+    background-color: var(--accent-color);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+}
 /* Catalogo */
 .container {
+    padding: 2rem;
     display: flex;
     width: max-content;
     margin: 0 auto;
     justify-content: center;
-    background-color: var(--corPrimaria);
+    background-color: var(--secondary-color);
 }
 .container {
     display: flex;
@@ -121,11 +129,6 @@ a:hover {
     border-radius: 5px;
 }
 
-/* .modal-content span {
-Mantém as cores do HTML
-    color: inherit; 
-}*/
-
 .modal-content {
     /* background: white; */
     padding: 20px;
@@ -145,7 +148,7 @@ Mantém as cores do HTML
     display: flex;
     flex-direction: column;
     /* align-items: center; */
-    background-color: var(--corCuaternaria);
+    background-color: var(--secondary-color);
     border-radius: 0 0px 5px 5px ;
     height: 100px;
     margin: 5px;
@@ -194,8 +197,8 @@ footer{
     flex-direction: row;
     flex-wrap: wrap;
     margin-top: 5em;
-    background-color: var(--corTerciaria);
-    /* margin: 5px; */
+    background-color: var(--secondary-color);
+ 
 
 }
 
