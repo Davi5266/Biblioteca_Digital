@@ -14,15 +14,17 @@
     </nav>
     <div id="book-details" class="book_container"></div>
 
-    <h5>
-
-    fetch('/data/books.json')
+    <script>
         // Obtém o parâmetro "book" da URL
         const params = new URLSearchParams(window.location.search);
         const bookId = params.get("book");
         console.log(bookId)
         console.log("BOOK ID")
         let dados = {}
+      
+
+    // fetch('/data/books.json')
+    fetch(`/livro/data/${bookId}`)
         .then(response => {
             if (!response.ok) {
                 throw new Error('Network response was not ok');
@@ -70,7 +72,7 @@
             console.log("ERRRRRRRRRRRRRRRRRRRRRRRRRRO")
             console.error('Error fetching the JSON file:', error);
         });
-    </h5>
+    </script>
     
 </body>
 </html>
