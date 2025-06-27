@@ -14,14 +14,15 @@
     </nav>
     <div id="book-details" class="book_container"></div>
 
-    <script>
+    <h5>
+
+    fetch('/data/books.json')
         // Obtém o parâmetro "book" da URL
         const params = new URLSearchParams(window.location.search);
         const bookId = params.get("book");
+        console.log(bookId)
+        console.log("BOOK ID")
         let dados = {}
-      
-
-    fetch('./src/data/books.json')
         .then(response => {
             if (!response.ok) {
                 throw new Error('Network response was not ok');
@@ -55,7 +56,7 @@
                             <p >${book.desc}</p>
                         </div>
                     </section>
-                    <a href="index.html">Voltar</a>
+                    <a href="/">Voltar</a>
                 `;
             } else {
                 document.getElementById("book-details").innerHTML = `
@@ -66,9 +67,10 @@
 
         })
         .catch(error => {
+            console.log("ERRRRRRRRRRRRRRRRRRRRRRRRRRO")
             console.error('Error fetching the JSON file:', error);
         });
-    </script>
+    </h5>
     
 </body>
 </html>

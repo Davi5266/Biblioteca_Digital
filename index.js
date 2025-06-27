@@ -1,18 +1,28 @@
 const express = require('express')
 const fs = require('fs')
+const path = require('path');
 const app = express()
 const port = 3000
 
-const sequelize = require('./db/dataBase')
+const sequelize = require('./model/database')
 const Book = require('./model/Book')
 const Imagem = require('./model/Imagem')
 
-const path = require('path')
+// CSS
+app.use(express.static(path.join(__dirname, 'public')));
 
+//HTML
 const basePath = path.join(__dirname, 'viwer')
+// app.use(express.static('public'))
 
 app.get('/',(req, res) => {
     res.sendFile(`${basePath}/index.html`)
+})
+
+app.get('/livro/:book',(req,res)=>{
+  const bookId = req.params.book
+  console.log(bookId)
+  res.sendFile(path.join(__dirname, 'viewer', 'livros.html'));
 })
 
 // 🔗 Relacionamento 1:N definido AQUI
@@ -26,7 +36,7 @@ Imagem.belongsTo(Book, {
   onDelete: 'CASCADE'
 });
 
-
+/*
 (async () => {
   try {
     await sequelize.sync({ force: true }); // Cria as tabelas do zero
@@ -49,7 +59,7 @@ Imagem.belongsTo(Book, {
     console.error('Erro ao sincronizar:', error);
   }
 })();
-
+*/
 app.listen(port, () => {
     console.log(`App rodando na porta ${port}`)
 })
