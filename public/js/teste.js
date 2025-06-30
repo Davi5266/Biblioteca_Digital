@@ -4,11 +4,18 @@
             const resposta = await fetch('/teste/all');
             if(!resposta.ok) throw new Error("Erro ao buscar dados da API")
 
-            const livro = resposta.json()
+            const livro = await resposta.json()
             console.log(livro.books)
-            console.log(livro.name)
+            let slaLivros = livro.books
+            // console.log(slaLivros)
 
-            document.getElementById('livro').innerHTML = `<p>${livro}</p>`;
+            for(const testelivro of slaLivros){
+              document.getElementById('livro').innerHTML = `<p>${testelivro.name}</p>`;
+              console.log(testelivro.name)
+              console.log(testelivro.id)              
+            }
+
+            // document.getElementById('livro').innerHTML = `<p>${livro}</p>`;
           } catch (error){
             console.log(error)
             document.getElementById('livro').innerHTML = '<p>Erro ao carregar dados de livros</p>'
