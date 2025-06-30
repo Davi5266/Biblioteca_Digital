@@ -2,11 +2,12 @@ const express = require('express')
 const fs = require('fs')
 const path = require('path');
 const app = express()
-const port = 3000
+const port = 5000
 
-const sequelize = require('./model/database')
+const conn = require('./db/conn')
 const Book = require('./model/Book')
 const Imagem = require('./model/Imagem')
+
 
 // CSS
 app.use(express.static(path.join(__dirname, 'public')));
@@ -25,10 +26,22 @@ app.get('/livro/:book',async (req,res)=>{
   res.sendFile(path.join(__dirname, 'viewer', 'livros.html'));
 })
 
+app.get('/rotateste',async(req,res)=>{
+  console.log("Rota Teste 01")
+  // res.sendFile(path.join(__dirname, 'viewer','teste.html'))
+  res.sendFile(`${basePath}/teste.html`)
+})
+
+app.get('/rotateste2',async(req,res)=>{
+  console.log("Rota Teste 02")
+  res.json({"ok":"ok"}).status(200)
+})
+
+/*
 app.get('/livro/data/:title', async(req,res)=>{
   const BookName = await req.params.title
   book = {    "o-pequeno-principe": {
-    "title": "O Pequeno Príncipe",            
+    "title": "O Pequeno Príncipe",
     "autor":"<b>Autor:</b> Antoine de Saint-Exupéry",
     "dtpubli":"<b>Data de publicação:</b> Abril de 1943",
     "idioma":"<b>Idioma:</b> Português",
@@ -39,7 +52,7 @@ app.get('/livro/data/:title', async(req,res)=>{
              "./src/img/o_pequeno-principe/o-pequeno-principe2.png",
              "./src/img/o_pequeno-principe/o_pequeno_principe3.png"] }}
   res.json()
-})
+})*/
 
 // 🔗 Relacionamento 1:N definido AQUI
 Book.hasMany(Imagem,{
@@ -52,30 +65,54 @@ Imagem.belongsTo(Book, {
   onDelete: 'CASCADE'
 });
 
-/*
-(async () => {
-  try {
-    await sequelize.sync({ force: true }); // Cria as tabelas do zero
-    console.log('Tabelas sincronizadas com sucesso!');
 
-    // Exemplo de criação:
-    const book = await Book.create({ name: 'Davi Souza' });
+// (async () => {
+//   try {
+//     await sequelize.sync({ force: true }); // Cria as tabelas do zero
+//     console.log('Tabelas sincronizadas com sucesso!');
 
-    // const fs = require('fs');
-    const buffer = fs.readFileSync('./foto.jpg');
+//     // Exemplo de criação:
+//     const book = await Book.create({ name: 'Davi Souza' });
+//      book = await Book.create({ name: 'Davi Souza' });
+//      book = await Book.create({ name: 'Davi Souza' });
+//      book = await Book.create({ name: 'Davi Souza' });
+//     // const fs = require('fs');
+//     const buffer = fs.readFileSync('./foto.jpg');
 
-    await Imagem.create({
-      name: 'foto.jpg',
-      data: buffer,
-      bookId: book.id
-    });
+//     await Imagem.create({
+//       name: 'foto.jpg',
+//       data: buffer,
+//       bookId: book.id
+//     });
 
-    console.log('Imagem salva com sucesso!');
-  } catch (error) {
-    console.error('Erro ao sincronizar:', error);
-  }
-})();
-*/
-app.listen(port, () => {
-    console.log(`App rodando na porta ${port}`)
-})
+//     console.log('Imagem salva com sucesso!');
+//   } catch (error) {
+//     console.error('Erro ao sincronizar:', error);
+//   }
+// })();
+
+
+// Routes
+const BookRoutes = require('./routes/BookRoutes')
+
+app.use('/teste', BookRoutes)
+
+
+// app.listen(port,"0.0.0.0", () => {
+//     console.log(`App rodando na porta ${port}`)
+//     try {
+//       sequelize.authenticate()
+//       console.log('Conectamos com o Sequelize!')
+//     } catch (error) {
+//       console.error('Não foi possível conectar:', error)
+//     }
+
+// })
+
+// Criar tabelas e rodar o app
+conn
+  .sync()
+  .then(() => {
+    app.listen(port)
+  })
+  .catch((err) => console.log(err))
