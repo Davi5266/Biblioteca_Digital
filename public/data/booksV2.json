@@ -1,0 +1,311 @@
+
+{
+    "o-pequeno-principe": {
+                "title": "O Pequeno Príncipe",            
+                "autor":"<b>Autor:</b> Antoine de Saint-Exupéry",
+                "dtpubli":"<b>Data de publicação:</b> Abril de 1943",
+                "idioma":"<b>Idioma:</b> Português",
+                "genero":"<b>Gênero:</b> Literatura infantil, Novela, Fábula, Ficção especulativa, Fantasia científica",
+                "desc": "<b>Resumo sobre o livro:</b> O Pequeno Príncipe é uma obra atemporal de Antoine de Saint-Exupéry, publicada em 1943. Apesar de parecer um livro infantil, sua narrativa poética e filosófica traz reflexões profundas sobre a vida, a amizade, o amor e a essência humana.A história acompanha um aviador que, após uma pane no deserto, encontra um pequeno príncipe vindo de um asteroide distante. Durante a conversa, o menino compartilha suas experiências ao visitar diferentes planetas, onde conhece personagens que representam traços humanos, como a vaidade, o poder e a ambição. Na Terra, ele aprende sobre a importância dos laços afetivos com uma raposa, que lhe ensina que o essencial é invisível aos olhos.Com uma linguagem simples e simbólica, o livro convida o leitor a enxergar o mundo com os olhos da infância, valorizando sentimentos genuínos e questionando a rigidez da vida adulta.",
+                "images": ["/img/o_pequeno-principe/Antoine de Saint-Exupéry-O Pequeno Principe.jpeg",
+                         "/img/o_pequeno-principe/o_pequeno_principe.png",
+                         "/img/o_pequeno-principe/o-pequeno-principe2.png",
+                         "/img/o_pequeno-principe/o_pequeno_principe3.png"
+           ] },
+            "todo-esse-tempo": {
+                "title": "Todo Esse Tempo",
+                "autor":"<b>Autoras:</b> Rachael Lippincott, Mikki Daughtry",
+                "dtpubli":"<b>Data de publicação:</b> 29 de setembro de 2020",
+                "idioma":"<b>Idioma:</b> Português",
+                "genero":"<b>Gênero:</b> Ficção, Romance de amor",
+                "desc": "<b>Resumo sobre o livro:</b> Após um grave acidente de carro, Kyle sobrevive, mas sua namorada Kim morre. Ele se vê perdido Kyle sempre teve uma vida perfeita ao lado de Kim, sua namorada. No entanto, um acidente de carro muda tudo: Kim morre, e Kyle precisa lidar com a dor e a culpa. Em meio ao luto, ele conhece Marley, uma garota que também carrega uma história triste. A conexão entre eles cresce conforme compartilham suas dores e esperanças. No entanto, uma reviravolta inesperada muda tudo. O livro traz um romance emocionante e reflexivo. A história explora temas como perda, recomeço e a importância do amor verdadeiro.até conhecer Marley, uma garota com sua própria história de dor. Os dois criam um vínculo inesperado, aprendendo a lidar com o luto e a importância do amor. É um romance emocionante, cheio de reviravoltas e reflexões sobre a vida.",
+                "images": ["/img/todo_esse-tempo/Mikki Daughtry & Rachael Lippincott - Todo Esse Tempo.jpeg",
+                        "/img/todo_esse-tempo/todo_esse-tempo.png",
+                        "/img/todo_esse-tempo/todo_esse_tempo.png"
+            ]},
+            "the-mountain-is-you": {
+                "title": "The Mountain Is You",
+                "autor":"<b>Autor:</b> Brianna Wiest ",
+                "dtpubli":"<b>Data de publicação:</b> 2020",
+                "idioma":"<b>Idioma:</b> Inglês",
+                "genero":"<b>Gênero:</b>Livro de autoajuda",
+                "desc": "<b>Resumo sobre o livro:</b> Transformando a autossabotaO livro explora a autossabotagem e como superá-la para alcançar uma vida mais plena. Brianna Wiest explica que muitas barreiras que enfrentamos são criadas por nós mesmos. A montanha do título simboliza desafios internos, medos e inseguranças. A autora ensina a identificar padrões autodestrutivos e a transformar pensamentos negativos. A obra combina psicologia, desenvolvimento pessoal e inteligência emocional. Wiest aborda a importância da resiliência e do autoconhecimento. O livro incentiva mudanças de mentalidade para uma vida mais equilibrada. Com uma abordagem prática, ajuda a construir hábitos positivos. É ideal para quem busca crescimento emocional e evolução pessoal.gem em autodomínio...",
+                "images": ["/img/The_mountain_is-you/The Mountain Is You_ Transforming Self-Sabotage Into Self-Mastery.jpeg",
+                        "/img/The_mountain_is-you/the_mountain_is-you.png",
+                        "/img/The_mountain_is-you/the_mountain_is_you.png"
+            ]},
+
+            "bibliioteca-da-Meia-Noite": {
+                "title": "A Biblioteca da Meia-Noite",
+                "autor": "<b>Autor:</b> Matt Haig",
+                "dtpubli": "<b>Data de publicação:</b> 2020",
+                "idioma": "<b>Idioma:</b> Português",
+                "genero": "<b>Gênero:</b> Ficção, Fantasia",
+                "desc": "<b>Resumo sobre o livro:</b> Nora Seed está cansada da vida e decide acabar com tudo. Entre a vida e a morte, ela encontra a Biblioteca da Meia-Noite, um lugar mágico onde cada livro representa uma vida diferente que ela poderia ter vivido. Através dessas vidas alternativas, Nora explora arrependimentos, sonhos e oportunidades perdidas. Cada escolha é uma chance de se redescobrir. A história discute depressão, propósito e felicidade. Ao visitar várias realidades, ela entende que a perfeição é uma ilusão. O livro mistura fantasia e filosofia de forma leve. Nora aprende a aceitar suas imperfeições. Um convite a valorizar a vida como ela é.",
+                "images": ["/img/Biblioteca-da-meia-noite/biblioteca da meia noite 1.png", "/img/Biblioteca-da-meia-noite/biblioteca da meia noite 2.png", "/img/Biblioteca-da-meia-noite/biblioteca da meia noite 3.png" ]
+            },
+            "A-Empregada": {
+                "title": "A Empregada",
+                "autor": "<b>Autora:</b> Freida McFadden",
+                "dtpubli": "<b>Data de publicação:</b> 2022",
+                "idioma": "<b>Idioma:</b> Português",
+                "genero": "<b>Gênero:</b> Thriller Psicológico, Mistério",
+                "desc": "<b>Resumo sobre o livro:</b> Millie é contratada para ser a nova empregada de uma família rica. Aos poucos, ela percebe que os patrões escondem segredos obscuros. Manipulação psicológica, tensão e jogos de poder dominam a narrativa. Millie, que também tem um passado complicado, precisa agir com inteligência para sobreviver. O suspense cresce a cada capítulo. O livro explora temas como desigualdade social e abuso de poder. A escrita é ágil e mantém o leitor preso. Repleto de reviravoltas, a história desafia expectativas. O final é surpreendente e impactante.",
+                "images": ["/img/A-empregada/A empregada1", "/img/A-empregada/A empregada2", "/img/A-empregada/A empregada3" ]
+            },
+            "O-Morro-dos-Ventos-Uivantes": {
+                "title": "O Morro dos Ventos Uivantes",
+                "autor": "<b>Autora:</b> Emily Brontë",
+                "dtpubli": "<b>Data de publicação:</b> 1847",
+                "idioma": "<b>Idioma:</b> Português",
+                "genero": "<b>Gênero:</b> Romance, Drama",
+                "desc": "<b>Resumo sobre o livro:</b> Catherine e Heathcliff vivem um amor intenso e destrutivo. Criado como um filho adotivo, Heathcliff cresce com rancor e desejo de vingança. O cenário é sombrio: charnecas, ventos e paixões tempestuosas. O romance trata da obsessão, ódio e amor doentio. Emily Brontë cria personagens complexos e imperfeitos. A narrativa é sombria e intensa, cheia de tragédias. O tempo e as gerações passam, mas as consequências desse amor ecoam. É uma história sobre destruição emocional. Um clássico da literatura inglesa. Atmosfera pesada e escrita profunda.",
+                "images": ["/img/O-morro-dos-ventos-uivantes/morro dos ventos uivantes1.png", "/img/O-morro-dos-ventos-uivantes/morro dos ventos uivantes2.png", "/img/O-morro-dos-ventos-uivantes/morro dos ventos uivantes3.png"]
+            },
+            "A-Garota-do-Lago": {
+                "title": "A Garota do Lago",
+                "autor": "<b>Autor:</b> Charlie Donlea",
+                "dtpubli": "<b>Data de publicação:</b> 2017",
+                "idioma": "<b>Idioma:</b> Português",
+                "genero": "<b>Gênero:</b> Suspense, Mistério",
+                "desc": "<b>Resumo sobre o livro:</b> Becca Eckersley, uma jovem promissora, é encontrada morta em uma pequena cidade. O mistério gira em torno de quem seria capaz de matá-la. A jornalista Kelsey Castle é enviada para cobrir o caso. Conforme investiga, ela descobre segredos que a cidade tenta esconder. A história alterna entre o passado de Becca e a investigação de Kelsey. O livro traz suspense, reviravoltas e tensão psicológica. As aparências enganam na pacata Summit Lake. O suspense é crescente, até a verdade chocante ser revelada. Uma leitura rápida e envolvente. Ideal para fãs de thrillers policiais.",
+                "images": ["/img/a-garota-do-lago/A garota do lago1.png", "/img/a-garota-do-lago/A garota do lago2.png", "/img/a-garota-do-lago/A garota do lago3.png"]
+            },
+            "Como-Falar-em-Publico-e-Encantar-as-Pessoas": {
+                "title": "Como Falar em Público e Encantar as Pessoas",
+                "autor": "<b>Autor:</b> Dale Carnegie",
+                "dtpubli": "<b>Data de publicação:</b> 1956",
+                "idioma": "<b>Idioma:</b> Português",
+                "genero": "<b>Gênero:</b> Desenvolvimento Pessoal, Comunicação",
+                "desc": "<b>Resumo sobre o livro:</b> Baseado nos princípios de Dale Carnegie, o livro ensina técnicas práticas para melhorar a comunicação. Ele mostra como vencer o medo de falar em público. O autor ensina a organizar discursos, envolver a plateia e construir confiança. A persuasão e o carisma são destacados como ferramentas essenciais. O livro é recheado de exemplos práticos e histórias reais. A linguagem é simples e direta. Ideal para iniciantes ou quem quer aprimorar habilidades oratórias. Reforça a importância da preparação e da autenticidade. Leitura obrigatória para líderes e profissionais. Um guia clássico de comunicação eficaz.",
+                "images": ["/img/Como-falar-em-público-e-encantar-as-pessoas/Como falar em público e encantar as pessoas1.png"]
+            },
+            "Os-Segredos-da-Mente-Milionaria": {
+                "title": "Os Segredos da Mente Milionária",
+                "autor": "<b>Autor:</b> T. Harv Eker",
+                "dtpubli": "<b>Data de publicação:</b> 2005",
+                "idioma": "<b>Idioma:</b> Português",
+                "genero": "<b>Gênero:</b> Finanças, Desenvolvimento Pessoal",
+                "desc": "<b>Resumo sobre o livro:</b> T. Harv Eker explica como crenças limitantes afetam sua vida financeira. O livro mostra que a verdadeira riqueza começa na mente. Ele introduz o conceito do “modelo de dinheiro”, programado desde a infância. Traz 17 arquivos de riqueza para mudar a mentalidade. Eker enfatiza ação, disciplina e foco em resultados. É um livro motivacional, com dicas práticas para gerar prosperidade. A ideia central é reprogramar seu “termostato financeiro”. A linguagem é simples e objetiva. Ideal para quem busca mudança de vida financeira. Inspira atitude e transformação pessoal.",
+                "images": ["/img/Os-segredos-da-mente-milionária/Os segredos da mente milionária1.png"]
+            },
+            "Gatilhos-Mentais": {
+                "title": "Gatilhos Mentais",
+                "autor": "<b>Autor:</b> Allan Costa",
+                "dtpubli": "<b>Data de publicação:</b> 2018",
+                "idioma": "<b>Idioma:</b> Português",
+                "genero": "<b>Gênero:</b> Marketing, Negócios",
+                "desc": "<b>Resumo sobre o livro:</b> Este livro explora técnicas de persuasão usadas no marketing e na comunicação. Gatilhos como autoridade, escassez, reciprocidade e prova social são explicados. Mostra como eles influenciam decisões inconscientes. A aplicação prática é voltada para vendas e negociações. A linguagem é didática e acessível. Exemplos reais ilustram o funcionamento de cada gatilho. O autor destaca a importância da ética no uso dessas técnicas. O livro também ensina a identificar quando estão sendo usados contra você. Excelente para profissionais de marketing e empreendedores. Um manual prático de influência e persuasão.",
+                "images": ["/img/Gatilhos-mentais/gatilhos mentais1.png"]
+            },
+            "Quebrando-o-Habito-de-Ser-Voce-Mesmo": {
+                "title": "Quebrando o Hábito de Ser Você Mesmo",
+                "autor": "<b>Autor:</b> Joe Dispenza",
+                "dtpubli": "<b>Data de publicação:</b> 2012",
+                "idioma": "<b>Idioma:</b> Português",
+                "genero": "<b>Gênero:</b> Autoajuda, Neurociência",
+                "desc": "<b>Resumo sobre o livro:</b> Dr. Joe Dispenza mistura ciência e espiritualidade para ensinar transformação pessoal. O livro explica como pensamentos criam realidades. Mostra que mudar padrões emocionais e mentais muda sua vida. Traz conceitos de neurociência, física quântica e psicologia. Ensina técnicas de meditação para reprogramar o cérebro. Propõe um método prático para criar uma nova identidade. Incentiva o leitor a abandonar crenças limitantes. A prática diária é essencial para o sucesso. Livro profundo, para quem quer mudanças reais. Um guia para a autotransformação consciente.",
+                "images": [".src/img/Quebrando-o-Hábito-de-ser-Voce-Mesmo/quebrando o habito de ser voce mesmo1.png", ".src/img/Quebrando-o-Hábito-de-ser-Voce-Mesmo/quebrando o habito de ser voce mesmo2.png", ".src/img/Quebrando-o-Hábito-de-ser-Voce-Mesmo/quebrando o habito de ser voce mesmo3.png"]
+            },
+            "solo-leveling": {
+                "title": "Solo Leveling",
+                "autor": "<b>Autor:</b> Chugong",
+                "dtpubli": "<b>Data de publicação:</b> 2018",
+                "idioma": "<b>Idioma:</b> Português",
+                "genero": "<b>Gênero:</b> Ação, Fantasia, Aventura",
+                "desc": "<b>Resumo sobre o livro:</b>Em um mundo cheio de monstros e caçadores, Sung Jin-Woo é o mais fraco de todos. Após quase morrer em uma missão, ele recebe o poder de evoluir infinitamente. Sung passa de oprimido a caçador lendário. A história é cheia de batalhas épicas e crescimento pessoal. O protagonista enfrenta perigos cada vez maiores. O universo mistura fantasia, RPG e ação frenética. Os gráficos (na versão manhwa) são impressionantes. O enredo prende do início ao fim. Uma jornada de superação e poder absoluto. Ideal para fãs de fantasia sombria.",
+                "images": ["/img/solo_leveling/solo_leveling_01.jpg"]
+            },
+            "one-piece": {
+                    "title": "One Piece",
+                    "autor": "<b>Autor:</b> Eiichiro Oda",
+                    "dtpubli": "<b>Data de publicação:</b> 1997",
+                    "idioma": "<b>Idioma:</b> Português",
+                    "genero": "<b>Gênero:</b> Aventura, Fantasia",
+                    "desc": "<b>Resumo sobre o livro:</b> Monkey D. Luffy sonha em encontrar o One Piece e se tornar o Rei dos Piratas. Ele reúne uma tripulação única e enfrenta aventuras no mar. Cada ilha traz novos desafios e inimigos poderosos. A história mistura ação, amizade e sonhos. É um dos mangás mais longos e amados da história.",
+                    "images": ["/img/one_piece/one_piece_01.jpg",
+                               "/img/one_piece/one_piece_02.jpg"]
+            },
+            
+            "attack-on-titan": {
+                    "title": "Attack on Titan",
+                    "autor": "<b>Autor:</b> Hajime Isayama",
+                    "dtpubli": "<b>Data de publicação:</b> 2009",
+                    "idioma": "<b>Idioma:</b> Português",
+                    "genero": "<b>Gênero:</b> Ação, Drama, Fantasia Sombria",
+                    "desc": "<b>Resumo sobre o livro:</b>A humanidade luta para sobreviver em cidades cercadas por muralhas. Gigantes devoram humanos e ameaçam a existência. Eren Yeager se junta à Tropa de Exploração para lutar contra eles. Ao longo da história, segredos chocantes sobre os titãs e o mundo são revelados. Uma narrativa intensa sobre liberdade e sobrevivência.",
+                    "images": ["/img/attack_on_titan/attack_on_titan_01.jpg",
+                               "/img/attack_on_titan/attack_on_titan_02.jpg"]
+            },
+            
+            "naruto": {
+                    "title": "Naruto",
+                    "autor": "<b>Autor:</b> Masashi Kishimoto",
+                    "dtpubli": "<b>Data de publicação:</b> 1999",
+                    "idioma": "<b>Idioma:</b> Português",
+                    "genero": "<b>Gênero:</b> Ação, Aventura, Fantasia",
+                    "desc": "<b>Resumo sobre o livro:</b> Naruto Uzumaki é um jovem ninja com um grande sonho: se tornar Hokage. Carrega dentro de si a Raposa de Nove Caudas. A história mostra sua jornada de crescimento, amizade e superação. Cheia de batalhas épicas e momentos emocionantes. Um dos maiores ícones dos animes e mangás.",
+                    "images": ["/img/naruto/naruto_01.jpg"]
+            },
+            
+            "jujutsu-kaisen": {
+                    "title": "Jujutsu Kaisen",
+                    "autor": "<b>Autor:</b> Gege Akutami",
+                    "dtpubli": "<b>Data de publicação:</b> 2018",
+                    "idioma": "<b>Idioma:</b> Português",
+                    "genero": "<b>Gênero:</b> Ação, Sobrenatural, Horror",
+                    "desc": "<b>Resumo sobre o livro:</b> Yuji Itadori se envolve com maldições após encontrar um objeto amaldiçoado. Ele passa a estudar na Escola Jujutsu para aprender a lutar. Luta contra espíritos malignos enquanto enfrenta dilemas internos. A história é marcada por ação rápida e temas sombrios. Um sucesso moderno dos mangás de ação.",
+                    "images": ["/img/jujutsu_kaisen/jujutsu_kaisen_01.jpg"]
+                    
+            },
+            "the-apothecary-diaries": {
+                    "title": "The Apothecary Diaries",
+                    "autor": "<b>Autor:</b> Natsu Hyuuga",
+                    "dtpubli": "<b>Data de publicação:</b> 2017",
+                    "idioma": "<b>Idioma:</b> Português",
+                    "genero": "<b>Gênero:</b> Mistério, Histórico, Drama",
+                    "desc": "<b>Resumo sobre o livro:</b>Maomao é uma jovem inteligente que trabalha como criada no palácio imperial. Usando seus conhecimentos em medicina, ela resolve mistérios. Sua inteligência chama a atenção da corte. A história mistura drama, intriga política e ciência antiga. Um belo mergulho na cultura oriental histórica.",
+                    "images": ["/img/the_apothecary_diaries/the_apothecary_diaries_01.jpg"]
+             },
+
+            "wotakoi-love-is-hard-for-otaku": {
+                    "title": "Wotakoi: Love Is Hard for Otaku",
+                    "autor": "<b>Autor:</b> Fujita",
+                    "dtpubli": "<b>Data de publicação:</b> 2014",
+                    "idioma": "<b>Idioma:</b> Português",
+                    "genero": "<b>Gênero:</b> Romance, Comédia",
+                    "desc": "<b>Resumo sobre o livro:</b> Narumi e Hirotaka são colegas de trabalho e otakus. Eles começam um relacionamento tentando equilibrar amor e seus hobbies. A história é leve, engraçada e cheia de referências à cultura pop. Mostra os desafios e as alegrias dos casais nerds. Uma comédia romântica encantadora.",
+                    "images": ["/img/wotakoi/wotakoi_01.jpg"]
+            },
+
+            "a-sign-of-affection": {
+                    "title": "A Sign of Affection",
+                    "autor": "<b>Autor:</b> suu Morishita",
+                    "dtpubli": "<b>Data de publicação:</b> 2019",
+                    "idioma": "<b>Idioma:</b> Português",
+                    "genero": "<b>Gênero:</b> Romance, Slice of Life",
+                    "desc": "<b>Resumo sobre o livro:</b>Yuki, uma estudante surda, conhece Itsuomi, um viajante gentil. Eles desenvolvem uma relação cheia de descobertas e emoções. A comunicação entre eles ultrapassa as barreiras da linguagem. A história é doce, sensível e visualmente linda. Um mangá sobre amor, aceitação e crescimento pessoal.",
+                    "images": ["/img/a_sign_of_affection/a_sign_of_affection_01.jpg"]
+            },
+
+            "honey-lemon-soda": {
+                    "title": "Honey Lemon Soda",
+                    "autor": "<b>Autor:</b> Mayu Murata",
+                    "dtpubli": "<b>Data de publicação:</b> 2015",
+                    "idioma": "<b>Idioma:</b> Português",
+                    "genero": "<b>Gênero:</b> Romance, Escolar",
+                    "desc": "<b>Resumo sobre o livro:</b> Uka Ishimori era tímida e isolada até conhecer Kai Miura. Inspirada por sua personalidade vibrante, ela busca mudar. É uma história sobre superação, amizade e amor adolescente. A arte é leve e doce. Um shoujo sobre acreditar em si mesmo.",
+                    "images": ["/img/honey_lemon_soda/honey_lemon_soda_01.jpg"]
+            },
+
+            "horimiya": {
+                    "title": "Horimiya",
+                    "autor": "<b>Autor:</b> HERO, Daisuke Hagiwara",
+                    "dtpubli": "<b>Data de publicação:</b> 2011",
+                    "idioma": "<b>Idioma:</b> Português",
+                    "genero": "<b>Gênero:</b> Romance, Comédia, Slice of Life",
+                    "desc": "<b>Resumo sobre o livro:</b> Hori é popular e responsável, enquanto Miyamura é quieto e cheio de tatuagens escondidas. Ao se conhecerem melhor, descobrem novas faces um do outro. O romance floresce de forma natural e sincera. O mangá trata de autoaceitação e amizade verdadeira. Uma história romântica cativante.",
+                    "images": ["/img/horimiya/horimiya_01.jpg"]
+            },
+
+            "spy-x-family": {
+                    "title": "Spy x Family",
+                    "autor": "<b>Autor:</b> Tatsuya Endo",
+                    "dtpubli": "<b>Data de publicação:</b> 2019",
+                    "idioma": "<b>Idioma:</b> Português",
+                    "genero": "<b>Gênero:</b> Ação, Comédia, Espionagem",
+                    "desc": "<b>Resumo sobre o livro:</b> O espião Twilight precisa construir uma família falsa para sua missão. Ele adota uma menina telepata e se casa com uma assassina, sem que saibam os segredos uns dos outros. A história é uma mistura divertida de ação, humor e fofura. Cada personagem é irresistível. Um dos maiores sucessos atuais.",
+                    "images": ["/img/spy_x_family/spy_x_family_01.jpg"]
+            },
+
+            "dandadan": {
+                    "title": "Dandadan",
+                    "autor": "<b>Autor:</b> Yukinobu Tatsu",
+                    "dtpubli": "<b>Data de publicação:</b> 2021",
+                    "idioma": "<b>Idioma:</b> Português",
+                    "genero": "<b>Gênero:</b> Ação, Sobrenatural, Comédia",
+                    "desc": "<b>Resumo sobre o livro:</b> Momo Ayase e Okarun, estudantes excêntricos, se envolvem em batalhas sobrenaturais. A história mistura aliens, fantasmas e poderes psíquicos de forma maluca. Cheio de ação frenética e humor surreal. A arte é extremamente detalhada e dinâmica. Um mangá único e eletrizante.",
+                    "images": ["/img/dandadan/dandadan_01.jpg"]
+            },
+            "Oyasumi-Punpun":{
+                "title": "Oyasumi Punpun",
+                    "autor": "<b>Autor:</b> Inio Asano",
+                    "dtpubli": "<b>Data de publicação:</b> 15 de março de 2007",
+                    "idioma": "<b>Idioma:</b> Português",
+                    "genero": "<b>Gêneros:</b> Coming-of-age, Drama, Slice of life",
+                    "desc": "<b>Resumo sobre o livro:</b> Punpun Onodera é um garoto normal de 11 anos que mora no Japão. Idealista e romântico sem esperança, Punpun começa a ver sua vida tomar um rumo sutil — embora ainda assim surpreendente — para o adulto quando conhece a nova garota de sua classe, Aiko Tanaka. É então que o garoto quieto aprende o quão inconstante pode ser manter um relacionamento e as dificuldades de superar a transição de uma infância ingênua para uma vida adulta complicada. Quando seu pai agride sua mãe uma noite, Punpun percebe outra coisa: aqueles que ele admirava não eram tão impressionantes quanto ele pensava. À medida que seus problemas aumentam, o comportamento tímido de Punpun se transforma em reclusão voluntária. Em vez de curá-lo de seus problemas e emoções conflitantes, isso apenas os intensifica, enviando-o pelo caminho escuro da maturidade nesta saga sombria de amadurecimento.",
+                    "images": ["/img/Oyasumi-Punpun/Oyasumi-Punpun_01.jpg", "/img/Oyasumi-Punpun/Oyasumi-Punpun_02.jpg","/img/Oyasumi-Punpun/Oyasumi-Punpun_03.jpg","/img/Oyasumi-Punpun/Oyasumi-Punpun_04.jpg","/img/Oyasumi-Punpun/Oyasumi-Punpun_05.jpg","/img/Oyasumi-Punpun/Oyasumi-Punpun_06.jpg","/img/Oyasumi-Punpun/Oyasumi-Punpun_07.jpg"]
+            },
+            "Grand-Blue":{
+                "title":"Grand Blue",
+                "autor":"<b>Autor:</b> Kenji Inoue",
+                "dtpubli": "<b>Data de publicação:</b> 7 de abril de 2014",
+                "idioma": "<b>Idioma:</b> Português",
+                "genero": "<b>Gêneros:</b> comédia",
+                "desc":" <b>Resumo sobre o livro:</b> Iori Kitahara se muda para a cidade costeira de Izu para seu primeiro ano na universidade, fixando residência acima da Grand Blue, a loja de mergulho de seu tio. Iori tem grandes esperanças e sonhos em ter a experiência universitária ideal, mas quando entra na loja é sugado para as atividades alcoólicas dos membros despreocupados do Clube de Mergulho que frequentam o local. Persuadido pelos veteranos Shinji Tokita e Ryuujirou Kotobuki, Iori relutantemente se junta ao grupo bizarro. Sua prima Chisa Kotegawa mais tarde entra e o pega em flagrante, ganhando Iori seu total desdém.",
+                "images":["/img/Grand-blue/grand-blue.jpg"]
+            },
+            "The-God-of-High-School":{
+                "title":"The God of High School",
+                "autor":"<b>Autores:</b> Park, Yong-Je(história e arte)",
+                "dtpubli":"<b>Data de publicação:</b>",
+                "idioma":"<b>Idioma:</b>",
+                "genero":"<b>Gêneros:</b> ação, aventura, fantasia",
+                "desc":"<b>Resumo sobre o livro:</b> O 'Deus do Ensino Médio' é uma competição acirrada realizada entre estudantes coreanos do ensino médio para determinar o melhor lutador entre eles. Todos os estilos de artes marciais e armas são permitidos. O prêmio final? O desejo mais profundo do vencedor será atendido, não importa o custo. Jin Mo-Ri treina taekwondo com seu avô desde tenra idade. Obcecado por lutar, ele entra no torneio para encontrar e desafiar oponentes mais fortes. Ao longo do caminho, ele conhece Han Dae-Wi, um especialista em karatê que está determinado a se tornar o campeão para ajudar seu amigo que está entre a vida e a morte, e Yu Mi-Ra, uma espadachim habilidosa que quer continuar o legado de sua família.",
+                "images":["/img/"]
+            },
+            "Mairimashita!_Iruma-kun":{
+                "title":"Mairimashita! Iruma-kun",
+                "autor":"<b>Autor:</b> Nishi, Osamu (história & Arte)",
+                "dtpubli":"<b>Data de publicação:</b> 2 de março de 2017",
+                "idioma":"<b>Idioma:</b>",
+                "genero":"<b>Gêneros:</b> comédia, fantasia",
+                "desc":"<b>Resumo sobre o livro:</b> Iruma Suzuki, de quatorze anos, tem a pior sorte possível! Incapaz de dizer não a ninguém, ele sempre realizou todos os trabalhos com risco de vida que seus pais gananciosos e preguiçosos solicitaram. Sua vida toma um rumo inesperado quando eles formam um contrato com Sullivan, um demônio de alto escalão, ao custo de sua alma. Com medo e confuso, Iruma fica surpreso que tudo o que Sullivan quer é agir como seu avô.Sullivan cuida de Iruma e decide matriculá-lo na escola demoníaca Babyls. O maior desafio de Iruma é esconder seu status de humano, então manter um perfil discreto entre seus colegas é a única opção. No entanto, Iruma logo descobrirá que ele não é um humano comum, e os demônios também podem ser mais do que aparenta.",
+                "images":["/img/Mairimashita!_Iruma-kun01.jpg"]
+            },
+            "Inuyashiki":{
+                "title":"Inuyashiki",
+                "autor":"<b>Autor:</b> Oku, Hiroya (História & Arte)",
+                "dtpubli":"<b>Data de publicação:</b> 28 de janeiro de 2014",
+                "idioma":"<b>Idioma:</b>",
+                "genero":"<b>Gêneros:</b> Drama, Sci-Fi",
+                "desc":"<b>Resumo sobre o livro:</b> Ichirou Inuyashiki é um velho pai desgastado pelas dificuldades da vida, tornando-o indefeso e fraco. Embora ele não tenha amigos, não seja amado por sua família e tenha sido diagnosticado com câncer, ele decide tentar viver sua melhor vida e adota um cachorro. No entanto, enquanto passeava com seu cachorro uma noite, a realidade de sua situação desesperadora se instala e ele começa a soluçar em um parque. Mas essa tristeza dura pouco, pois um encontro com um objeto extraterrestre o deixa com um corpo saudável, mas mecânico. Perturbado pelo corpo estranho e sua incapacidade de chorar mais, Inuyashiki começa a acreditar que perdeu sua humanidade.No entanto, uma noite, ele salva um sem-teto da morte, e a visão do homem feliz e grato o leva às lágrimas - provando a ele que ele ainda é um humano. A partir desse momento, Inuyashiki resolve colocar seu novo poder em uso com o propósito de salvar os necessitados.Infelizmente, sua alegria não dura muito, pois ele descobre que há uma nova ameaça determinada a se deleitar com seu próprio poder recém-descoberto por meios horripilantes. Assim, a missão de Inuyashiki deixa de ser um pequeno herói da vizinhança para se tornar um guardião contra um monstro próspero.",
+                "images":["/img/Inuyashiki/Inuyashiki.jpg"]
+            },
+            "Monster":{
+                "title":"Monster",
+                "autor":"<b>Autor:</b>Urasawa, Naoki (História & Arte)",
+                "dtpubli":"<b>Data de publicação:</b> 5 de dezembor de 1994",
+                "idioma":"<b>Idioma:</b>",
+                "genero":"<b>Gêneros:</b>  Award Winning, Drama, Mistério",
+                "desc":"<b>Resumo sobre o livro:</b> Kenzou Tenma, um renomado neurocirurgião japonês que trabalha na Alemanha do pós-guerra, enfrenta uma escolha difícil: operar Johan Liebert, um menino órfão à beira da morte, ou o prefeito de Düsseldorf. No final, Tenma decide arriscar sua reputação salvando Johan, efetivamente deixando o prefeito para morrer. </br> Como consequência de suas ações, o diretor do hospital Heinemann tira Tenma de sua posição, e a filha de Heinemann, Eva, rompe o noivado. Desonrado e evitado por seus colegas, Tenma perde toda a esperança de uma carreira de sucesso - isto é, até que o misterioso assassinato de Heinemann lhe dá outra chance. </br> Nove anos depois, Tenma é o chefe do departamento cirúrgico e está perto de se tornar o próprio diretor. Embora tudo pareça bem para ele no início, ele logo se envolve em uma cadeia de assassinatos horríveis que ocorreram em toda a Alemanha. O culpado é um monstro - o mesmo que Tenma salvou naquele dia fatídico há nove anos.",
+                "images":["/img/Monster/Monster.jpg"]
+            },
+            "Kaijuu_8-gou":{
+                "title":"Kaijuu 8-gou",
+                "autor":"<b>Autor:</b>  Matsumoto, Naoya (História & Arte)",
+                "dtpubli":"<b>Data de publicação:</b> 3 de julho de 2020",
+                "idioma":"<b>Idioma:</b>",
+                "genero":"<b>Gêneros:</b>  Ação, Fantasia, Sci-Fi",
+                "desc":"<b>Resumo sobre o livro:</b> Monstros grotescos, parecidos com Godzilla, chamados 'kaijuu', aparecem no Japão há muitos anos. Para combater essas feras, uma unidade militar de elite conhecida como Corpo de Defesa arrisca suas vidas diariamente para proteger os civis. Uma vez que uma criatura é morta, os 'varredores' - trabalhando sob a Professional Kaijuu Cleaner Corporation - são deixados para descartar seus restos mortais. </br> Kafka Hibino, um homem de 32 anos, está insatisfeito com seu trabalho como varredor. Desde tenra idade, ele aspira a se juntar ao Corpo de Defesa e matar kaijuus para viver. Depois de algumas tentativas fracassadas, no entanto, ele desistiu de seus sonhos e se resignou à mediocridade que fornecia um salário decente. No entanto, quando um ambicioso recruta de 18 anos chamado Reno Ichikawa se junta à sua equipe de limpeza, Kafka é mais uma vez lembrado de seu desejo de se juntar ao exército. </br> Após uma cadeia de eventos infelizes e uma interação com o varredor júnior, Kafka encontra um kaijuu do tipo parasita que força seu caminho através de sua boca - transformando-o em um monstro humanóide. Com seus novos poderes, Kafka pretende dar uma última chance ao seu sonho de toda a vida.",
+                "images":["/img/Kaijuu_8-gou/Kaijuu_8-gou.jpg"]
+            },
+            "Hellsing":{
+                "title":"Hellsing",
+                "autor":"<b>Autor:</b>  Hirano, Kouta (História & Arte)",
+                "dtpubli":"<b>Data de publicação:</b> 30 de abril de 1997",
+                "idioma":"<b>Idioma:</b>",
+                "genero":"<b>Gêneros:</b> Ação, Horror, Subrenatural",
+                "desc":"<b>Resumo sobre o livro:</b> Durante séculos, muitas organizações secretas participaram do extermínio de vários tipos de monstros perigosos. Um deles é o Hellsing, com sede na Inglaterra, dirigido por seu astuto líder, Sir Integra Fairbrook Wingates Hellsing. Seu maior caçador e trunfo é Alucard, um vampiro imbatível geneticamente modificado por seu pai. Apesar de ele ser um deles, ele jurou ser seu protetor e servo.</br> Uma nova crise começa e com a ajuda de Seras Victoria, sua parceira vampira recém-transformada, Alucard tem que descobrir a verdade por trás dos misteriosos ataques de vampiros. Nem todo ser humano é obrigado a ser seu aliado nesta batalha, e ele não hesitará em matar qualquer um que estiver em seu caminho.",
+                "images":["/img/Hellsing/Hellsing.jpg"]
+            },
+            "Slam_Dunk":{
+                "title":"Slam Dunk",
+                "autor":"<b>Autor:</b>  Inoue, Takehiko (História & Arte)",
+                "dtpubli":"<b>Data de publicação:</b> 18 de Setembro de 1990",
+                "idioma":"<b>Idioma:</b>",
+                "genero":"<b>Gêneros:</b>  Award Winning, Esportes",
+                "desc":"<b>Resumo sobre o livro:</b> Hanamichi Sakuragi, um adolescente alto e barulhento com cabelos ruivos e força física além de sua idade, está ansioso para acabar com sua sequência de rejeição de 50 anos e finalmente conseguir uma namorada ao começar seu primeiro ano de Shohoku High. No entanto, sua reputação de delinqüência e destrutividade o precede, e a maioria de seus colegas subsequentemente o evita como uma praga. Quando seu primeiro dia de aula termina, ele fica com dois pensamentos fortes: 'Eu odeio basquete' e 'Eu preciso de uma namorada'. Haruko Akagi, ignorante da história de mau comportamento de Hanamichi, percebe sua imensa altura e involuntariamente se aproxima dele, perguntando se ele gosta ou não de basquete. Superado pelo fato de que uma garota está falando com ele, o gigante ruivo deixa escapar um sim, apesar de seus verdadeiros sentimentos. Na academia, Haruko pergunta se ele pode fazer uma enterrada. Embora seja um novato completo, Hanamachi espalma a bola e dá o salto... mas ultrapassa, batendo a cabeça na tabela. Espantado com suas habilidades físicas quase desumanas, Haruko rapidamente notifica o capitão de basquete da escola sobre sua façanha. Com isso, Hanamichi é inesperadamente empurrado para um mundo de competição por uma garota que ele mal conhece, mas logo descobre que talvez haja mais no basquete do que ele pensava.",
+                "images":[ "/img/Slam_Dunk/Slam_Dunk_01.jpg", "/img/Slam_Dunk/Slam_Dunk_02.jpg", "/img/Slam_Dunk/Slam_Dunk_03.jpg", "/img/Slam_Dunk/Slam_Dunk_04.jpg", "/img/Slam_Dunk/Slam_Dunk_05.jpg", "/img/Slam_Dunk/Slam_Dunk_06.jpg", "/img/Slam_Dunk/Slam_Dunk_07.jpg", "/img/Slam_Dunk/Slam_Dunk_08.jpg", "/img/Slam_Dunk/Slam_Dunk_09.jpg", "/img/Slam_Dunk/Slam_Dunk_10.jpg"]
+            }
+}

@@ -8,11 +8,21 @@
             console.log(livro.books)
             let slaLivros = livro.books
             // console.log(slaLivros)
-
+            let container_livro = document.getElementById('livro');
+            container_livro.className = 'div_book';
             for(const testelivro of slaLivros){
-              document.getElementById('livro').innerHTML = `<p>${testelivro.name}</p>`;
-              console.log(testelivro.name)
-              console.log(testelivro.id)              
+              const div_livro = document.createElement("div");
+              // document.getElementById('livro').innerHTML = `<p>${testelivro.name}</p>`;
+              // console.log(testelivro.name)
+              // console.log(testelivro.id)    
+              
+              div_livro.className = "div_livro";
+              div_livro.innerHTML = `
+                <h3>${testelivro.title}</h3>
+                <img src="${testelivro.images}" alt="${testelivro.title}">
+                `;
+
+              container_livro.appendChild(div_livro);
             }
 
             // document.getElementById('livro').innerHTML = `<p>${livro}</p>`;

@@ -5,11 +5,48 @@ const { DataTypes } = require('sequelize');
 
 const Imagem = require('./Imagem')
 
+// const Book = sequelize.define("Book",{
+//     name:{
+//         type: DataTypes.STRING,
+//         allowNull:false
+//     }
+// });
+
 const Book = sequelize.define("Book",{
-    name:{
+    title:{
         type: DataTypes.STRING,
         allowNull:false
-    }
+    },
+    autor:{
+        type: DataTypes.STRING,
+        allowNull:false
+
+},
+    dtpubli:{
+        type: DataTypes.STRING,
+        allowNull:false
+
+},
+    idioma:{
+        type: DataTypes.STRING,
+        allowNull:false
+
+},
+    genero:{
+        type: DataTypes.STRING,
+        allowNull:false
+
+},
+    desc:{
+        type: DataTypes.STRING,
+        allowNull:false
+
+},
+    images:{
+        type: DataTypes.STRING,
+        allowNull:false
+
+},
 });
 
 // Book.hasMany(Imagem,{

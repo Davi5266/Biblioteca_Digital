@@ -94,9 +94,10 @@ Imagem.belongsTo(Book, {
 
 // Routes
 const BookRoutes = require('./routes/BookRoutes')
+const PagesRoutes = require('./routes/PagesRoutes')
 
 app.use('/teste', BookRoutes)
-
+app.use('/page', PagesRoutes)
 
 // app.listen(port,"0.0.0.0", () => {
 //     console.log(`App rodando na porta ${port}`)
