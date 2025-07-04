@@ -225,3 +225,8 @@ footer{
     /* height: 20px; */
     /* width: 20px; */
 }
+
+.div_book div img{
+    height: 100px;
+    width: 100px;
+}
