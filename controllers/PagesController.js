@@ -7,4 +7,10 @@ module.exports = class PagesController{
     static async sobre(req,res){
         res.sendFile(path.join(__dirname,'..', 'viwer', 'sobre.html'));
     }
+
+    static async idBook(req,res){
+        const bookId = req.params.bookId;
+        console.log(bookId)
+        res.sendFile(path.join(__dirname,'..','viwer','testeLivro.html'));
+    }
 }

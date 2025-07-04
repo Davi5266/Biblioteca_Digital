@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/style_book.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Teste Livro</h1>
+    <div id="book-details" class="book_container">
+        <p>Carregando...</p>
+    </div>
+    <!-- <script src="/js/teste.js"></script> -->
+    <script>
+        async function readBook(){
+            const path = window.location.pathname;
+            console.log(path)
+            const id = path.split('page')[1];
+            console.log(id)
+            console.log(`/teste${id}`)
+            await fetch(`/teste${id}`)
+            .then(res => res.json())
+            .then(book => {
+                console.log(book)
+                document.getElementById('book-details').innerHTML = `
+                <h2>${book.book.title}</h2>
+                <p>${book.book.autor}</p>
+                <img src="${book.book.images}" alt="${book.book.title}">
+                <p>${book.book.desc}</p>
+                `;
+            });
+        }
+        // Carrega a função allBooks quando todo o conteúdo estiver pronto
+        window.addEventListener('DOMContentLoaded', readBook());
+    </script>
+</body>
+</html>

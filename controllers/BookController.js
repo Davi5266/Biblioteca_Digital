@@ -60,4 +60,14 @@ module.exports = class BookController {
             res.status(500).json({message: error})
         }
     }
+
+    static async getBookId(req, res) {
+        const bookId = await Book.findByPk(req.params.bookId)
+        console.log(bookId)
+        if (!bookId){
+            res.status(403).json({message: "Livro não encontrado!"})
+        }
+
+        res.status(200).json({book: bookId})
+    }
 }

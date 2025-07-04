@@ -13,6 +13,7 @@ const Imagem = require('./model/Imagem')
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.json())
 //HTML
+app.use(express.static(path.join(__dirname,'viwer')));
 const basePath = path.join(__dirname, 'viwer')
 // app.use(express.static('public'))
 
