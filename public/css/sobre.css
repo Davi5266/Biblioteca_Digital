@@ -1,11 +1,49 @@
+body {
+  background-image: url('https://images.unsplash.com/photo-1613845332340-b2c7509a7711?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-image: url('https://static.historiadomundo.com.br/Origem%20do%20Livro%20-%20HISTORIA%20DO%20MUNDO%281%29.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: white;
+  text-align: center;
+}
+
+header::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5); /* escurece a imagem */
+}
+
+header h1 {
+  position: relative;
+  font-size: 2.5rem;
+  margin: 0;
+  padding: 0 1rem;
+  z-index: 1;
+  }
 .sobre-container {
   max-width: 800px;
   margin: 2rem auto;
   padding: 2rem;
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.9); /* Transparência */
   border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
 }
+
 
 .sobre-container h1, .sobre-container h2 {
   margin-bottom: 1rem;
@@ -22,4 +60,24 @@
 .sobre-container em {
   font-style: italic;
   color: #666;
+}
+.botao {
+  background-color: #ff7b39;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+  display: inline-block;
+}
+
+.botao:hover {
+  background-color: #e86625;
+}
+nav {
+  position: fixed;
+  top: 10px;
+  left: 10px;
 }
