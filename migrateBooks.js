@@ -35,7 +35,7 @@ async function migrateBooks() {
         console.log('✅ Banco de dados sincronizado');
         
         // Lê o arquivo JSON
-        const jsonPath = path.join(__dirname, 'public', 'data', 'books.json');
+        const jsonPath = path.join(__dirname, 'public', 'data', 'booksV2.json');
         const booksData = JSON.parse(fs.readFileSync(jsonPath, 'utf8'));
         
         console.log(`📚 Encontrados ${Object.keys(booksData).length} livros para migrar`);

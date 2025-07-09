@@ -21,22 +21,22 @@ app.get('/',(req, res) => {
     res.sendFile(`${basePath}/index.html`)
 })
 
-app.get('/livro/:book',async (req,res)=>{
-  const bookId = await req.params.book
-  console.log(bookId)
-  res.sendFile(path.join(__dirname, 'viewer', 'livros.html'));
-})
+// app.get('/livro/:book',async (req,res)=>{
+//   const bookId = await req.params.book
+//   console.log(bookId)
+//   res.sendFile(path.join(__dirname, 'viewer', 'livros.html'));
+// })
 
-app.get('/rotateste',async(req,res)=>{
-  console.log("Rota Teste 01")
-  // res.sendFile(path.join(__dirname, 'viewer','teste.html'))
-  res.sendFile(`${basePath}/teste.html`)
-})
+// app.get('/rotateste',async(req,res)=>{
+//   console.log("Rota Teste 01")
+//   // res.sendFile(path.join(__dirname, 'viewer','teste.html'))
+//   res.sendFile(`${basePath}/teste.html`)
+// })
 
-app.get('/rotateste2',async(req,res)=>{
-  console.log("Rota Teste 02")
-  res.json({"ok":"ok"}).status(200)
-})
+// app.get('/rotateste2',async(req,res)=>{
+//   console.log("Rota Teste 02")
+//   res.json({"ok":"ok"}).status(200)
+// })
 
 /*
 app.get('/livro/data/:title', async(req,res)=>{
@@ -65,32 +65,6 @@ Imagem.belongsTo(Book, {
   foreignKey: 'bookId',
   onDelete: 'CASCADE'
 });
-
-
-// (async () => {
-//   try {
-//     await sequelize.sync({ force: true }); // Cria as tabelas do zero
-//     console.log('Tabelas sincronizadas com sucesso!');
-
-//     // Exemplo de criação:
-//     const book = await Book.create({ name: 'Davi Souza' });
-//      book = await Book.create({ name: 'Davi Souza' });
-//      book = await Book.create({ name: 'Davi Souza' });
-//      book = await Book.create({ name: 'Davi Souza' });
-//     // const fs = require('fs');
-//     const buffer = fs.readFileSync('./foto.jpg');
-
-//     await Imagem.create({
-//       name: 'foto.jpg',
-//       data: buffer,
-//       bookId: book.id
-//     });
-
-//     console.log('Imagem salva com sucesso!');
-//   } catch (error) {
-//     console.error('Erro ao sincronizar:', error);
-//   }
-// })();
 
 
 // Routes

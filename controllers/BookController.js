@@ -51,8 +51,6 @@ module.exports = class BookController {
     static async getAll(req, res) {
         const books = await Book.findAll()
         try{
-            console.log(books)
-            console.log(books.name)
             res.status(200).json({
                 books: books,
             })
@@ -63,7 +61,6 @@ module.exports = class BookController {
 
     static async getBookId(req, res) {
         const bookId = await Book.findByPk(req.params.bookId)
-        console.log(bookId)
         if (!bookId){
             res.status(403).json({message: "Livro não encontrado!"})
         }

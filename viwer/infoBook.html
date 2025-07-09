@@ -31,6 +31,56 @@
     </div>
 
     <script>
+        // Função para processar e obter a primeira imagem
+        function getFirstImage(imagesData) {
+            // Se não há dados de imagem
+            if (!imagesData) {
+                return '/img/icons/erro.png';
+            }
+            
+            let imagePath = '';
+            
+            // Se for uma string (pode conter múltiplas imagens separadas por vírgula)
+            if (typeof imagesData === 'string') {
+                if (imagesData.includes(',')) {
+                    // Múltiplas imagens separadas por vírgula
+                    const images = imagesData.split(',').map(img => img.trim());
+                    imagePath = images[0];
+                } else {
+                    // Uma única imagem
+                    imagePath = imagesData.trim();
+                }
+            }
+            // Se for um array
+            else if (Array.isArray(imagesData)) {
+                imagePath = imagesData[0] || '';
+            }
+            // Se for um objeto ou outro tipo
+            else {
+                imagePath = String(imagesData);
+            }
+            
+            // Se ainda não temos um caminho válido
+            if (!imagePath) {
+                return '/img/icons/erro.png';
+            }
+            
+            // Corrige o caminho para /img/
+            if (imagePath.startsWith('./src/img/')) {
+                return imagePath.replace('./src/img/', '/img/');
+            } else if (imagePath.startsWith('/img/')) {
+                return imagePath;
+            } else if (imagePath.startsWith('src/img/')) {
+                return '/' + imagePath;
+            } else if (imagePath.startsWith('http://') || imagePath.startsWith('https://')) {
+                // Se for uma URL completa, mantém como está
+                return imagePath;
+            } else {
+                // Adiciona o prefixo /img/ se não tiver
+                return '/img/' + imagePath;
+            }
+        }
+
         async function readBook(){
             try {
                 const path = window.location.pathname;
@@ -41,12 +91,17 @@
                 
                 const book = bookData.book;
                 
+                // Obtém a primeira imagem processada
+                const firstImage = getFirstImage(book.images);
+                console.log('Imagem original:', book.images);
+                console.log('Imagem processada:', firstImage);
+                
                 // Estrutura organizada para apresentar o livro
                 document.getElementById('book-details').innerHTML = `
                     <div class="book-container">
                         <div class="book-header">
                             <div class="book-cover">
-                                <img src="${book.images}" alt="Capa: ${book.title}" 
+                                <img src="${firstImage}" alt="Capa: ${book.title}" 
                                      onerror="this.src='/img/icons/erro.png'">
                             </div>
                             <div class="book-info">
@@ -71,8 +126,8 @@
                                     <span class="value">${book.genero}</span>
                                 </div>
                                 <div class="detail-item">
-                                    <span class="label">Páginas:</span>
-                                    <span class="value">300</span>
+                                    <span class="label">Idioma:</span>
+                                    <span class="value">${book.idioma}</span>
                                 </div>
                                 <div class="detail-item">
                                     <span class="label">Data de publicação:</span>
