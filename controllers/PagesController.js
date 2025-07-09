@@ -11,6 +11,10 @@ module.exports = class PagesController{
     static async idBook(req,res){
         const bookId = req.params.bookId;
         console.log(bookId)
-        res.sendFile(path.join(__dirname,'..','viwer','testeLivro.html'));
+        res.sendFile(path.join(__dirname,'..','viwer','infoBook.html'));
+    }
+
+    static async createBook(req,res){
+        res.sendFile(path.join(__dirname,'..','viwer','createBook.html'));
     }
 }

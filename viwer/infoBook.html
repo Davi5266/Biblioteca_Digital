@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/infoBookStyle.css">
+    <title>Detalhes do Livro</title>
+</head>
+<body>
+  <header>
+    <div class="logo">Library</div>
+    <nav>
+      <a href="/page/sobre">Sobre</a>
+      <a href="/">Inicio</a>
+    </nav>
+  </header>
+
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Explore a magia dos livros, deixe-se levar <br>por novas histórias.</h1>
+            <input class="btn" type="text" placeholder="Pesquisar livros...">
+        </div>
+    </section>
+
+    <div id="book-details" class="containerBook">
+        <div class="loading">
+            <div class="spinner"></div>
+            <p>Carregando informações do livro...</p>
+        </div>
+    </div>
+
+    <script>
+        async function readBook(){
+            try {
+                const path = window.location.pathname;
+                const id = path.split('page')[1];
+                
+                const response = await fetch(`/teste${id}`);
+                const bookData = await response.json();
+                
+                const book = bookData.book;
+                
+                // Estrutura organizada para apresentar o livro
+                document.getElementById('book-details').innerHTML = `
+                    <div class="book-container">
+                        <div class="book-header">
+                            <div class="book-cover">
+                                <img src="${book.images}" alt="Capa: ${book.title}" 
+                                     onerror="this.src='/img/icons/erro.png'">
+                            </div>
+                            <div class="book-info">
+                                <h1 class="book-title">${book.title}</h1>
+                                <p class="book-author">por ${book.autor}</p>
+                                <div class="book-actions">
+                                    <button class="btn-read">Ler Livro</button>
+                                    <button class="btn-favorite">❤ Favoritar</button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="book-content">
+                            <div class="book-description">
+                                <h2>Sinopse</h2>
+                                <p>${book.desc}</p>
+                            </div>
+                            
+                            <div class="book-details">
+                                <div class="detail-item">
+                                    <span class="label">Gênero:</span>
+                                    <span class="value">${book.genero}</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="label">Páginas:</span>
+                                    <span class="value">300</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="label">Data de publicação:</span>
+                                    <span class="value">${book.dtpubli}</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                `;
+                
+            } catch (error) {
+                console.error('Erro:', error);
+                document.getElementById('book-details').innerHTML = `
+                    <div class="error-container">
+                        <h2>Ops! Algo deu errado</h2>
+                        <p>Não conseguimos carregar as informações do livro.</p>
+                        <a href="/" class="btn-back">Voltar ao início</a>
+                    </div>
+                `;
+            }
+        }
+        
+        window.addEventListener('DOMContentLoaded', readBook);
+    </script>
+</body>
+</html>

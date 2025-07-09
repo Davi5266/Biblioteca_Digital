@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adicionar Novo Livro - Biblioteca Digital</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/createBookStyle.css">
+    <style>
+      
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Library</div>
+        <nav>
+            <a href="/page/sobre">Sobre</a>
+            <a href="/">Inicio</a>
+        </nav>
+    </header>
+
+    <main class="create-book-container">
+        <div class="form-header">
+            <h1>Adicionar Novo Livro</h1>
+            <p>Preencha as informações abaixo para adicionar um novo livro à biblioteca</p>
+        </div>
+
+        <form id="createBookForm" class="book-form">
+            <div class="form-section">
+                <h2>Informações Básicas</h2>
+                
+                <div class="form-group">
+                    <label for="title">Título do Livro *</label>
+                    <input type="text" id="title" name="title" required 
+                           placeholder="Digite o título do livro">
+                </div>
+
+                <div class="form-group">
+                    <label for="autor">Autor *</label>
+                    <input type="text" id="autor" name="autor" required 
+                           placeholder="Nome do autor">
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="dtpubli">Data de Publicação *</label>
+                        <input type="date" id="dtpubli" name="dtpubli" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="idioma">Idioma *</label>
+                        <select id="idioma" name="idioma" required>
+                            <option value="">Selecione o idioma</option>
+                            <option value="Português">Português</option>
+                            <option value="Inglês">Inglês</option>
+                            <option value="Espanhol">Espanhol</option>
+                            <option value="Francês">Francês</option>
+                            <option value="Alemão">Alemão</option>
+                            <option value="Italiano">Italiano</option>
+                            <option value="Japonês">Japonês</option>
+                            <option value="Chinês">Chinês</option>
+                            <option value="Outro">Outro</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="genero">Gênero *</label>
+                    <select id="genero" name="genero" required>
+                        <option value="">Selecione o gênero</option>
+                        <option value="Ficção">Ficção</option>
+                        <option value="Não-ficção">Não-ficção</option>
+                        <option value="Romance">Romance</option>
+                        <option value="Mistério">Mistério</option>
+                        <option value="Suspense">Suspense</option>
+                        <option value="Fantasia">Fantasia</option>
+                        <option value="Ficção Científica">Ficção Científica</option>
+                        <option value="Terror">Terror</option>
+                        <option value="Biografia">Biografia</option>
+                        <option value="História">História</option>
+                        <option value="Filosofia">Filosofia</option>
+                        <option value="Psicologia">Psicologia</option>
+                        <option value="Autoajuda">Autoajuda</option>
+                        <option value="Negócios">Negócios</option>
+                        <option value="Tecnologia">Tecnologia</option>
+                        <option value="Mangá">Mangá</option>
+                        <option value="HQ/Quadrinhos">HQ/Quadrinhos</option>
+                        <option value="Poesia">Poesia</option>
+                        <option value="Teatro">Teatro</option>
+                        <option value="Outro">Outro</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-section">
+                <h2>Descrição e Imagem</h2>
+                
+                <div class="form-group">
+                    <label for="desc">Sinopse/Descrição *</label>
+                    <textarea id="desc" name="desc" required 
+                              placeholder="Descreva o conteúdo do livro, sinopse ou resumo..."
+                              rows="5"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="images">URL da Imagem da Capa *</label>
+                    <input type="url" id="images" name="images" required 
+                           placeholder="https://exemplo.com/imagem.jpg">
+                    <small>Cole aqui o link da imagem da capa do livro</small>
+                </div>
+
+                <div class="image-preview">
+                    <img id="imagePreview" src="/img/icons/erro.png" alt="Preview da capa">
+                    <p>Preview da capa</p>
+                </div>
+            </div>
+
+            <div class="form-actions">
+                <button type="button" class="btn-secondary" onclick="window.location.href='/'">
+                    Cancelar
+                </button>
+                <button type="submit" class="btn-primary">
+                    <span class="btn-text">Adicionar Livro</span>
+                    <span class="btn-loading" style="display: none;">
+                        <div class="spinner"></div>
+                        Salvando...
+                    </span>
+                </button>
+            </div>
+        </form>
+    </main>
+
+    <script>
+        // Preview da imagem
+        document.getElementById('images').addEventListener('input', function() {
+            const preview = document.getElementById('imagePreview');
+            const url = this.value;
+            
+            if (url) {
+                preview.src = url;
+                preview.onerror = function() {
+                    this.src = '/img/icons/erro.png';
+                };
+            } else {
+                preview.src = '/img/icons/erro.png';
+            }
+        });
+
+        // Envio do formulário
+        document.getElementById('createBookForm').addEventListener('submit', async function(e) {
+            e.preventDefault();
+            
+            const submitBtn = document.querySelector('.btn-primary');
+            const btnText = submitBtn.querySelector('.btn-text');
+            const btnLoading = submitBtn.querySelector('.btn-loading');
+            
+            // Mostra loading
+            btnText.style.display = 'none';
+            btnLoading.style.display = 'flex';
+            submitBtn.disabled = true;
+            
+            try {
+                const formData = new FormData(this);
+                const bookData = Object.fromEntries(formData);
+                
+                const response = await fetch('/api/books', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify(bookData)
+                });
+                
+                if (response.ok) {
+                    alert('Livro adicionado com sucesso!');
+                    window.location.href = '/';
+                } else {
+                    throw new Error('Erro ao adicionar livro');
+                }
+                
+            } catch (error) {
+                console.error('Erro:', error);
+                alert('Erro ao adicionar livro. Tente novamente.');
+            } finally {
+                // Restaura botão
+                btnText.style.display = 'block';
+                btnLoading.style.display = 'none';
+                submitBtn.disabled = false;
+            }
+        });
+    </script>
+</body>
+</html>
